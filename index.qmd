@@ -1,0 +1,21 @@
+---
+title: "Welcome to IS655: International History"
+format: html
+editor: visual
+---
+
+## 🌍 Overview
+
+Welcome to **IS655**, a graduate seminar at Old Dominion University taught by Dr. Austin Jersild. This site hosts 100 interactive labs exploring international history through data visualization, policy modeling, and computational analysis using R and Quarto.
+
+## 🔍 Lab Themes
+- Imperial Systems
+- Revolutions & Ideology
+- Global Conflicts & Cold War Dynamics
+- Decolonization & Development
+- Institutions & Policy Memo Toolkits
+
+## 📦 Getting Started
+To begin, visit the [Syllabus](syllabus.qmd) or explore the labs by theme in the navigation bar.
+
+Happy exploring!

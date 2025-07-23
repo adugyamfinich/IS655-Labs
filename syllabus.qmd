@@ -1,0 +1,64 @@
+---
+title: "IS655: International History – Syllabus"
+format: html
+editor: visual
+---
+
+## 📘 Course Overview
+
+**Instructor**: Dr. Austin Jersild  
+**Department**: History / Graduate Program in International Studies  
+**Institution**: Old Dominion University  
+**Credits**: 3  
+**Delivery**: [In-person / Online / Hybrid]  
+**Contact**: ajersild@odu.edu
+
+## 🎯 Description
+
+This graduate seminar explores the evolution of the international system from the early 20th century to the present. Students examine imperial legacies, global conflict, ideological competition, and transnational cooperation through historiographical debates, primary sources, and quantitative modeling in R.
+
+## 🧭 Learning Objectives
+
+- Analyze major international historical events and their global impact  
+- Evaluate historiographical interpretations and policy implications  
+- Apply quantitative modeling tools using R  
+- Produce a research paper or policy memo grounded in historical evidence  
+- Connect historical developments to modern international relations
+
+## 🗂️ Weekly Topics
+
+| Week | Theme |
+|------|-------|
+| 1 | Introduction: What is International History? |
+| 2 | Empires and Global Order in 1914 |
+| 3 | World War I and the Versailles System |
+| 4 | Interwar Ideologies |
+| 5 | World War II |
+| 6 | Cold War Origins |
+| 7 | Decolonization |
+| 8 | Sino-Soviet Relations |
+| 9 | International Institutions |
+| 10 | Quantitative Modeling in R |
+| 11 | Regional Case Studies |
+| 12 | Student Presentations |
+| 13 | Final Reflections |
+
+## 📝 Assignments
+
+- Weekly reflections  
+- Two short papers  
+- Final project: Research paper or policy memo with R-based appendix  
+- Participation
+
+## 📌 Grading
+
+- Participation: 20%  
+- Reflections: 20%  
+- Short Papers: 20%  
+- Final Project: 40%
+
+## 🏛️ Institutional Policies
+
+ODU policies on academic integrity, Title IX, accessibility, and student conduct apply.  
+[View full policy list](https://www.odu.edu/about/policiesandprocedures)
+

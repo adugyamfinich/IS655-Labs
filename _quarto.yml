@@ -1,0 +1,35 @@
+project:
+  type: website
+
+website:
+  title: "IS655: International History Labs"
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Syllabus
+        href: syllabus.qmd
+      - text: Lab Modules
+        menu:
+          - text: Imperial Systems
+            href: 01_ImperialSystems/lab01_empire_population.qmd
+          - text: Revolution & Ideology
+            href: 02_RevolutionAndIdeology/lab04_revolutionary_spread.qmd
+          - text: Global Conflict
+            href: 03_GlobalConflict/lab07_WWI_casualty_models.qmd
+          - text: Cold War Dynamics
+            href: 04_ColdWarDynamics/lab10_alliance_networks.qmd
+          - text: Decolonization & Development
+            href: 05_DecolonizationAndDevelopment/lab13_independence_timing_map.qmd
+          - text: Global Institutions
+            href: 06_GlobalInstitutions/lab16_UN_votes_trends.qmd
+          - text: Quantitative Methods
+            href: 07_QuantitativeMethods/lab19_intro_to_tidymodels.qmd
+          - text: Regional Case Studies
+            href: 08_RegionalCaseStudies/lab22_Africa_debt_history.qmd
+          - text: Policy Memo Toolkits
+            href: 09_PolicyMemoToolkits/lab26_data_appendix_formatting.qmd
+format:
+  html:
+    theme: none
+    css: style.css
