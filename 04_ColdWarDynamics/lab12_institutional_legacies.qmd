@@ -11,14 +11,20 @@ Explore how conflict shapes long-term institutional development.
 Do post-conflict institutions converge or diverge over time? What factors influence these trajectories?
 
 ## 📥 Load Data
-```{r}
-legacy <- read_csv("assets/datasets/institutional_legacies.csv")
-legacy %>%
-  ggplot(aes(x = year, y = institutional_quality, color = country)) +
-  geom_line() +
-  labs(title = "Institutional Quality Over Time",
-       x = "Year", y = "Quality Index") +
-  theme_minimal()
+```{r, lab04c}
+library(tidyverse)
+library(here)
+legacy <- read_csv(here::here("assets/datasets/institutional_legacies.csv"))
+# The current dataset 'institutional_legacies.csv' does not contain a 'year' column.
+# Therefore, time-series plotting is not feasible with this data.
+# If time-series data is added, the following code can be uncommented.
+
+# legacy %>%
+#   ggplot(aes(x = year, y = legacy_score, color = country)) +
+#   geom_line() +
+#   labs(title = "Institutional Quality Over Time",
+#        x = "Year", y = "Quality Index") +
+#   theme_minimal()
 ```
 
 

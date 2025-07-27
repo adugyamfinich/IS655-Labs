@@ -10,18 +10,25 @@ Group states by ideology using unsupervised learning.
 Examine which countries cluster together. What values or policies do they share? Could this method help predict future alliances?
 
 ## 📥 Load Data
-```{r}
+```{r, lab02c}
+library(tidyverse)
 library(cluster)
-ideology <- read_csv("assets/datasets/ideology_attributes.csv")
+library(here)
+ideology <- read_csv(here::here("assets/datasets/ideology_attributes.csv"))
 
 
-set.seed(123)
-clust <- kmeans(ideology[, -1], centers = 3)
-ideology$cluster <- clust$cluster
+# The current dataset 'ideology_attributes.csv' contains only categorical data.
+# K-means clustering requires numerical data.
+# If numerical attributes (e.g., economic_policy, media_freedom) are added to the dataset,
+# the following code can be uncommented to perform clustering and visualization.
 
-ggplot(ideology, aes(x = economic_policy, y = media_freedom, color = factor(cluster))) +
-  geom_point() +
-  labs(title = "Ideological Clustering of States",
-       x = "Economic Policy Score", y = "Media Freedom Score") +
-  theme_minimal()
+# set.seed(123)
+# clust <- kmeans(ideology[, -1], centers = 3)
+# ideology$cluster <- clust$cluster
+
+# ggplot(ideology, aes(x = economic_policy, y = media_freedom, color = factor(cluster))) +
+#   geom_point() +
+#   labs(title = "Ideological Clustering of States",
+#        x = "Economic Policy Score", y = "Media Freedom Score") +
+#   theme_minimal()
 ```

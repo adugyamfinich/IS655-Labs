@@ -11,9 +11,10 @@ Visualize major trade flows across empires using commodity-based export data fro
 Which empires specialized in which commodities, and why? Discuss how trade patterns shaped foreign policy strategies.
 
 ## 📥 Setup
-```{r}
+```{r, lab01b}
 library(tidyverse)
-trade <- read_csv("assets/datasets/imperial_trade.csv")
+library(here)
+trade <- read_csv(here::here("assets/datasets/imperial_trade.csv"))
 
 trade %>%
   ggplot(aes(x = export_value, y = commodity, fill = empire)) +

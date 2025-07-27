@@ -11,11 +11,17 @@ Quantify the economic and institutional effects of major conflicts.
 Which variables most strongly predict post-war economic decline? What policy implications follow?
 
 ## 📥 Load Data
-```{r}
-conflict_data <- read_csv("assets/datasets/war_impact.csv")
+```{r, lab04a}
+library(tidyverse)
+library(here)
+conflict_data <- read_csv(here::here("assets/datasets/war_impact.csv"))
 
-model <- lm(gdp_change ~ war_duration + casualties + infrastructure_loss, data = conflict_data)
-summary(model)
+# The current dataset 'war_impact.csv' does not contain 'gdp_change' or 'war_duration' columns.
+# Therefore, the linear model cannot be performed with the current data.
+# If these columns are added to the dataset, the following code can be uncommented.
+
+# model <- lm(gdp_change ~ war_duration + casualties + infrastructure_loss, data = conflict_data)
+# summary(model)
 
 ```
 

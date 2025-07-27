@@ -11,8 +11,10 @@ Analyze and model the distribution of colonial administrative spending across re
 How did budget allocation reflect priorities like military control, education, or infrastructure? What patterns emerge across empires?
 
 ## 📥 Data Load
-```{r}
-admin <- read_csv("assets/datasets/colonial_budgets.csv")
+```{r, lab03c}
+library(tidyverse)
+library(here)
+admin <- read_csv(here::here("assets/datasets/colonial_budgets.csv"))
 
 admin %>%
   ggplot(aes(x = region, y = budget, fill = expense_type)) +

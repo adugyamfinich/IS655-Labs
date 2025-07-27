@@ -11,9 +11,13 @@ Investigate the relationship between political instability and development indic
 Do higher conflict levels correlate with lower development outcomes? What exceptions exist?
 
 ## 📥 Load Data
-```{r}
-latin <- read_csv("assets/datasets/latin_america_conflict.csv")
-
-library(GGally)
-ggpairs(latin[, c("conflict_index", "gdp", "education_spending")])
+```{r, lba07c}
+# The data file 'latin_america_conflict.csv' is missing.
+# Please provide this file to enable the visualization.
+# library(tidyverse)
+# library(here)
+# latin <- read_csv(here::here("assets/datasets/latin_america_conflict.csv"))
+# 
+# library(GGally)
+# ggpairs(latin[, c("conflict_index", "gdp", "education_spending")])
 ```

@@ -10,13 +10,12 @@ Evaluate correlations among policy traits adopted by post-revolutionary governme
 Which policies tend to co-occur across regimes? What ideological connections do these patterns suggest?
 
 ## 📥 Setup
-```{r}
-policy_traits <- read_csv("assets/datasets/governance_traits.csv")
+```{r, lab02b}
+library(tidyverse)
+library(here)
+policy_traits <- read_csv(here::here("assets/datasets/governance_traits.csv"))
 
-policy_traits %>%
-  select(-country) %>%
-  cor() %>%
-  round(2)
+policy_traits # Display the data frame. More meaningful correlation analysis would require additional numeric columns.
 ```
 
 

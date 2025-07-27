@@ -11,14 +11,18 @@ Compare economic and social indicators between authoritarian and democratic regi
 Which regime type shows stronger development outcomes? What trade-offs are visible?
 
 ## 📥 Load Data
-```{r}
-regimes <- read_csv("assets/datasets/regime_comparison.csv")
-
-ggplot(regimes, aes(x = gdp_per_capita, y = education_index, color = regime_type)) +
-  geom_point() +
-  labs(title = "Development Outcomes by Regime Type",
-       x = "GDP per Capita", y = "Education Index") +
-  theme_minimal()
+```{r, lab08b}
+# The data file 'regime_comparison.csv' is missing.
+# Please provide this file to enable the visualization.
+# library(tidyverse)
+# library(here)
+# regimes <- read_csv(here::here("assets/datasets/regime_comparison.csv"))
+# 
+# ggplot(regimes, aes(x = gdp_per_capita, y = education_index, color = regime_type)) +
+#   geom_point() +
+#   labs(title = "Development Outcomes by Regime Type",
+#        x = "GDP per Capita", y = "Education Index") +
+#   theme_minimal()
 ```
 
 

@@ -11,13 +11,16 @@ Analyze postwar economic recovery in Western and Eastern Europe using historical
 Compare recovery trajectories. How did Marshall Plan aid correlate with economic growth?
 
 ## 📥 Load Data
-```{r}
-library(tidyverse)
-europe <- read_csv("assets/datasets/europe_reconstruction.csv")
-
-ggplot(europe, aes(x = year, y = gdp, color = region)) +
-  geom_line() +
-  labs(title = "GDP Recovery in Europe Post-WWII",
-       x = "Year", y = "GDP (billions USD)") +
-  theme_minimal()
+```{r, lab07a}
+# The data file 'europe_reconstruction.csv' is missing.
+# Please provide this file to enable the visualization.
+# library(tidyverse)
+# library(here)
+# europe <- read_csv(here::here("assets/datasets/europe_reconstruction.csv"))
+# 
+# ggplot(europe, aes(x = year, y = gdp, color = region)) +
+#   geom_line() +
+#   labs(title = "GDP Recovery in Europe Post-WWII",
+#        x = "Year", y = "GDP (billions USD)") +
+#   theme_minimal()
 ```

@@ -10,16 +10,18 @@ Explore the structure and influence of global governance institutions.
 Which institutions dominate global governance? How do their domains shape international cooperation?
 
 ## 📥 Load Data
-```{r}
-governance <- read_csv("assets/datasets/global_governance.csv")
+```{r, lab05c}
+# library(tidyverse)
+# library(here)
+# governance <- read_csv(here::here("assets/datasets/global_governance.csv"))
 
-governance %>%
-  ggplot(aes(x = institution, y = influence_score, fill = domain)) +
-  geom_col() +
-  coord_flip() +
-  labs(title = "Influence of Global Governance Institutions",
-       x = "Institution", y = "Influence Score") +
-  theme_minimal()
+# governance %>%
+#   ggplot(aes(x = institution, y = influence_score, fill = domain)) +
+#   geom_col() +
+#   coord_flip() +
+#   labs(title = "Influence of Global Governance Institutions",
+#        x = "Institution", y = "Influence Score") +
+#   theme_minimal()
 ```
 
 

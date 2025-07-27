@@ -10,11 +10,14 @@ Use linear regression to model historical trends such as GDP growth or military 
 Interpret the coefficients. What do they suggest about regional economic trajectories?
 
 ## 📥 Load Data
-```{r}
-library(tidyverse)
-gdp <- read_csv("assets/datasets/historical_gdp.csv")
-
-model <- lm(gdp ~ year + region, data = gdp)
-summary(model)
+```{r, lab06a}
+# The data file 'historical_gdp.csv' is missing.
+# Please provide this file to enable the analysis.
+# library(tidyverse)
+# library(here)
+# gdp <- read_csv(here::here("assets/datasets/historical_gdp.csv"))
+# 
+# model <- lm(gdp ~ year + region, data = gdp)
+# summary(model)
 ```
 

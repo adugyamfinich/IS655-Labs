@@ -10,15 +10,17 @@ Quantify state capacity across empires using fiscal, military, and bureaucratic 
 Which empires show sustained capacity growth? What historical events might explain declines?
 
 ## 📥 Load Data
-```{r}
-state_data <- read_csv("assets/datasets/state_capacity.csv")
+```{r, lab03a}
+# library(tidyverse)
+# library(here)
+# state_data <- read_csv(here::here("assets/datasets/state_capacity.csv"))
 
-state_data <- state_data %>%
-  mutate(capacity_index = (tax_revenue + army_size + admin_density) / 3)
+# state_data <- state_data %>%
+#   mutate(capacity_index = (tax_revenue + army_size + admin_density) / 3)
 
-ggplot(state_data, aes(x = year, y = capacity_index, color = empire)) +
-  geom_line() +
-  labs(title = "State Capacity Over Time",
-       x = "Year", y = "Composite Capacity Index") +
-  theme_minimal()
+# ggplot(state_data, aes(x = year, y = capacity_index, color = empire)) +
+#   geom_line() +
+#   labs(title = "State Capacity Over Time",
+#        x = "Year", y = "Composite Capacity Index") +
+#   theme_minimal()
 ```

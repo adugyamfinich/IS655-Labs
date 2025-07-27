@@ -10,14 +10,15 @@ Use Principal Component Analysis (PCA) to reduce complexity in historical datase
 Which components explain the most variance? What historical traits do they represent?
 
 ## 📥 Load Data
-```{r}
-library(tidyverse)
-library(FactoMineR)
-library(factoextra)
+```{r, lab06c}
+# library(tidyverse)
+# library(FactoMineR)
+# library(factoextra)
+# library(here)
 
-data <- read_csv("assets/datasets/historical_metrics.csv")
-pca <- PCA(data[, -1], graph = FALSE)
-fviz_pca_ind(pca, label = "none", habillage = data$region)
+# data <- read_csv(here::here("assets/datasets/historical_metrics.csv"))
+# pca <- PCA(data[, -1], graph = FALSE)
+# fviz_pca_ind(pca, label = "none", habillage = data$region)
 ```
 
 

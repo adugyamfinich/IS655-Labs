@@ -10,15 +10,17 @@ Analyze how empires adapted institutions in response to crises.
 Which reform types are most common? Are certain empires more proactive than others?
 
 ## 📥 Load Data
-```{r}
-reform_data <- read_csv("assets/datasets/institutional_reforms.csv")
+```{r, lab03b}
+# library(tidyverse)
+# library(here)
+# reform_data <- read_csv(here::here("assets/datasets/institutional_reforms.csv"))
 
-reform_data %>%
-  ggplot(aes(x = crisis_year, fill = reform_type)) +
-  geom_bar() +
-  facet_wrap(~empire) +
-  labs(title = "Institutional Reforms Triggered by Crises",
-       x = "Year of Crisis", y = "Number of Reforms") +
-  theme_minimal()
+# reform_data %>%
+#   ggplot(aes(x = crisis_year, fill = reform_type)) +
+#   geom_bar() +
+#   facet_wrap(~empire) +
+#   labs(title = "Institutional Reforms Triggered by Crises",
+#        x = "Year of Crisis", y = "Number of Reforms") +
+#   theme_minimal()
 ```
 

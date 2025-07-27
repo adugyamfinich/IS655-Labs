@@ -11,12 +11,13 @@ Track revolutionary activity from 1789 to 1900 and explore spatial diffusion pat
 What patterns emerge? Do revolutionary waves cluster in specific regions or periods? Identify possible causes.
 
 ## 📥 Data
-```{r}
+```{r, lab02a}
 library(tidyverse)
-revolutions <- read_csv("assets/datasets/revolution_events.csv")
+library(here)
+revolutions <- read_csv(here::here("assets/datasets/revolution_events.csv"))
 
 revolutions %>%
-  ggplot(aes(x = year, fill = region)) +
+  ggplot(aes(x = year, fill = country)) +
   geom_histogram(binwidth = 5) +
   labs(title = "Frequency of Revolutionary Events",
        x = "Year", y = "Number of Events") +
