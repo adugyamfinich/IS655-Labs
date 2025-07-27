@@ -1,0 +1,744 @@
+[
+  {
+    "objectID": "09_PolicyMemoToolkits/lab27_memo_peer_review.html",
+    "href": "09_PolicyMemoToolkits/lab27_memo_peer_review.html",
+    "title": "Lab 27 – Memo Peer Review Framework",
+    "section": "",
+    "text": "Establish a structured rubric for peer feedback on policy memos."
+  },
+  {
+    "objectID": "09_PolicyMemoToolkits/lab27_memo_peer_review.html#objective",
+    "href": "09_PolicyMemoToolkits/lab27_memo_peer_review.html#objective",
+    "title": "Lab 27 – Memo Peer Review Framework",
+    "section": "",
+    "text": "Establish a structured rubric for peer feedback on policy memos."
+  },
+  {
+    "objectID": "09_PolicyMemoToolkits/lab27_memo_peer_review.html#review-criteria",
+    "href": "09_PolicyMemoToolkits/lab27_memo_peer_review.html#review-criteria",
+    "title": "Lab 27 – Memo Peer Review Framework",
+    "section": "✅ Review Criteria",
+    "text": "✅ Review Criteria\n\nClarity of Executive Summary\nHistorical relevance and accuracy\nUse of data and visualizations\nStrength of recommendations\nWriting style and formatting"
+  },
+  {
+    "objectID": "09_PolicyMemoToolkits/lab27_memo_peer_review.html#prompt",
+    "href": "09_PolicyMemoToolkits/lab27_memo_peer_review.html#prompt",
+    "title": "Lab 27 – Memo Peer Review Framework",
+    "section": "✍️ Prompt",
+    "text": "✍️ Prompt\nExchange memos with a peer and provide constructive feedback using the rubric above. Reflect on how the review process improved your own memo."
+  },
+  {
+    "objectID": "09_PolicyMemoToolkits/lab25_policy_memo_template.html",
+    "href": "09_PolicyMemoToolkits/lab25_policy_memo_template.html",
+    "title": "Lab 25 – Policy Memo Template",
+    "section": "",
+    "text": "Provide a reusable memo framework for students to present historical analysis as policy advice."
+  },
+  {
+    "objectID": "09_PolicyMemoToolkits/lab25_policy_memo_template.html#objective",
+    "href": "09_PolicyMemoToolkits/lab25_policy_memo_template.html#objective",
+    "title": "Lab 25 – Policy Memo Template",
+    "section": "",
+    "text": "Provide a reusable memo framework for students to present historical analysis as policy advice."
+  },
+  {
+    "objectID": "09_PolicyMemoToolkits/lab25_policy_memo_template.html#template-sections",
+    "href": "09_PolicyMemoToolkits/lab25_policy_memo_template.html#template-sections",
+    "title": "Lab 25 – Policy Memo Template",
+    "section": "📋 Template Sections",
+    "text": "📋 Template Sections\n\nTo: [Decision-maker]\nFrom: [Your Name]\nDate: [Insert Date]\nSubject: [Concise Topic]\nExecutive Summary: [Key findings and recommendations]\nBackground: [Historical context and relevance]\nAnalysis: [Data-driven insights]\nRecommendations: [Actionable steps]\nAppendix: [Visuals, tables, citations]"
+  },
+  {
+    "objectID": "09_PolicyMemoToolkits/lab25_policy_memo_template.html#prompt",
+    "href": "09_PolicyMemoToolkits/lab25_policy_memo_template.html#prompt",
+    "title": "Lab 25 – Policy Memo Template",
+    "section": "✍️ Prompt",
+    "text": "✍️ Prompt\nUse this template to draft a memo on post-conflict reconstruction strategies in a historical case of your choice."
+  },
+  {
+    "objectID": "05_DecolonizationAndDevelopment/lab13_trade_networks.html",
+    "href": "05_DecolonizationAndDevelopment/lab13_trade_networks.html",
+    "title": "Lab 13 – Mapping Global Trade Networks",
+    "section": "",
+    "text": "Visualize historical trade flows and identify central nodes in global exchange. ## ✍️ Prompt: Which regions act as trade hubs? How does network structure reflect power dynamics?"
+  },
+  {
+    "objectID": "05_DecolonizationAndDevelopment/lab13_trade_networks.html#objective",
+    "href": "05_DecolonizationAndDevelopment/lab13_trade_networks.html#objective",
+    "title": "Lab 13 – Mapping Global Trade Networks",
+    "section": "",
+    "text": "Visualize historical trade flows and identify central nodes in global exchange. ## ✍️ Prompt: Which regions act as trade hubs? How does network structure reflect power dynamics?"
+  },
+  {
+    "objectID": "05_DecolonizationAndDevelopment/lab13_trade_networks.html#load-data",
+    "href": "05_DecolonizationAndDevelopment/lab13_trade_networks.html#load-data",
+    "title": "Lab 13 – Mapping Global Trade Networks",
+    "section": "📥 Load Data",
+    "text": "📥 Load Data\n\n# library(igraph)\n# library(tidyverse)\n# library(here)\n# trade &lt;- read_csv(here::here(\"assets/datasets/global_trade.csv\"))\n\n# g &lt;- graph_from_data_frame(trade)\n# plot(g, vertex.size = 5, vertex.label.cex = 0.7,\n#      main = \"Global Trade Network (19th Century)\")"
+  },
+  {
+    "objectID": "03_GlobalConflict/lab09_governance_comparison.html",
+    "href": "03_GlobalConflict/lab09_governance_comparison.html",
+    "title": "Lab 09 – Comparing Imperial Governance Models",
+    "section": "",
+    "text": "Compare governance structures across empires using categorical and numeric traits. ## ✍️ Prompt:\nWhat governance traits distinguish these empires? How might these traits affect long-term stability?"
+  },
+  {
+    "objectID": "03_GlobalConflict/lab09_governance_comparison.html#objective",
+    "href": "03_GlobalConflict/lab09_governance_comparison.html#objective",
+    "title": "Lab 09 – Comparing Imperial Governance Models",
+    "section": "",
+    "text": "Compare governance structures across empires using categorical and numeric traits. ## ✍️ Prompt:\nWhat governance traits distinguish these empires? How might these traits affect long-term stability?"
+  },
+  {
+    "objectID": "03_GlobalConflict/lab09_governance_comparison.html#load-data",
+    "href": "03_GlobalConflict/lab09_governance_comparison.html#load-data",
+    "title": "Lab 09 – Comparing Imperial Governance Models",
+    "section": "📥 Load Data",
+    "text": "📥 Load Data\n\n# library(tidyverse)\n# library(fmsb)\n# library(here)\n# governance &lt;- read_csv(here::here(\"assets/datasets/imperial_governance.csv\"))\n\n# # Prepare data\n# radar_data &lt;- governance %&gt;%\n#   filter(empire %in% c(\"Ottoman\", \"British\", \"Qing\")) %&gt;%\n#   select(empire, centralization, legal_uniformity, local_autonomy)\n\n# # Normalize and plot\n# radar_data &lt;- as.data.frame(radar_data)\n# radar_data &lt;- rbind(rep(5, 3), rep(0, 3), radar_data[,-1])\n# rownames(radar_data) &lt;- c(\"Max\", \"Min\", radar_data$empire)\n\n# radarchart(radar_data, axistype = 1,\n#            pcol = c(\"red\", \"blue\", \"green\"),\n#            plwd = 2, plty = 1,\n#            title = \"Governance Traits Across Empires\")"
+  },
+  {
+    "objectID": "03_GlobalConflict/lab08_institutional_resilience.html",
+    "href": "03_GlobalConflict/lab08_institutional_resilience.html",
+    "title": "Lab 08 – Institutional Resilience and Reform",
+    "section": "",
+    "text": "Analyze how empires adapted institutions in response to crises. ## ✍️ Prompt:\nWhich reform types are most common? Are certain empires more proactive than others?"
+  },
+  {
+    "objectID": "03_GlobalConflict/lab08_institutional_resilience.html#objective",
+    "href": "03_GlobalConflict/lab08_institutional_resilience.html#objective",
+    "title": "Lab 08 – Institutional Resilience and Reform",
+    "section": "",
+    "text": "Analyze how empires adapted institutions in response to crises. ## ✍️ Prompt:\nWhich reform types are most common? Are certain empires more proactive than others?"
+  },
+  {
+    "objectID": "03_GlobalConflict/lab08_institutional_resilience.html#load-data",
+    "href": "03_GlobalConflict/lab08_institutional_resilience.html#load-data",
+    "title": "Lab 08 – Institutional Resilience and Reform",
+    "section": "📥 Load Data",
+    "text": "📥 Load Data\n\n# library(tidyverse)\n# library(here)\n# reform_data &lt;- read_csv(here::here(\"assets/datasets/institutional_reforms.csv\"))\n\n# reform_data %&gt;%\n#   ggplot(aes(x = crisis_year, fill = reform_type)) +\n#   geom_bar() +\n#   facet_wrap(~empire) +\n#   labs(title = \"Institutional Reforms Triggered by Crises\",\n#        x = \"Year of Crisis\", y = \"Number of Reforms\") +\n#   theme_minimal()"
+  },
+  {
+    "objectID": "06_GlobalInstitutions/lab18_dimensionality_reduction.html",
+    "href": "06_GlobalInstitutions/lab18_dimensionality_reduction.html",
+    "title": "Lab 18 – Dimensionality Reduction with PCA",
+    "section": "",
+    "text": "Use Principal Component Analysis (PCA) to reduce complexity in historical datasets. ## ✍️ Prompt:\nWhich components explain the most variance? What historical traits do they represent?"
+  },
+  {
+    "objectID": "06_GlobalInstitutions/lab18_dimensionality_reduction.html#objective",
+    "href": "06_GlobalInstitutions/lab18_dimensionality_reduction.html#objective",
+    "title": "Lab 18 – Dimensionality Reduction with PCA",
+    "section": "",
+    "text": "Use Principal Component Analysis (PCA) to reduce complexity in historical datasets. ## ✍️ Prompt:\nWhich components explain the most variance? What historical traits do they represent?"
+  },
+  {
+    "objectID": "06_GlobalInstitutions/lab18_dimensionality_reduction.html#load-data",
+    "href": "06_GlobalInstitutions/lab18_dimensionality_reduction.html#load-data",
+    "title": "Lab 18 – Dimensionality Reduction with PCA",
+    "section": "📥 Load Data",
+    "text": "📥 Load Data\n\n# library(tidyverse)\n# library(FactoMineR)\n# library(factoextra)\n# library(here)\n\n# data &lt;- read_csv(here::here(\"assets/datasets/historical_metrics.csv\"))\n# pca &lt;- PCA(data[, -1], graph = FALSE)\n# fviz_pca_ind(pca, label = \"none\", habillage = data$region)"
+  },
+  {
+    "objectID": "06_GlobalInstitutions/lab17_clustering_states.html",
+    "href": "06_GlobalInstitutions/lab17_clustering_states.html",
+    "title": "Lab 17 – Clustering States by Historical Indicators",
+    "section": "",
+    "text": "Group countries based on historical indicators using k-means clustering."
+  },
+  {
+    "objectID": "06_GlobalInstitutions/lab17_clustering_states.html#objective",
+    "href": "06_GlobalInstitutions/lab17_clustering_states.html#objective",
+    "title": "Lab 17 – Clustering States by Historical Indicators",
+    "section": "",
+    "text": "Group countries based on historical indicators using k-means clustering."
+  },
+  {
+    "objectID": "06_GlobalInstitutions/lab17_clustering_states.html#prompt",
+    "href": "06_GlobalInstitutions/lab17_clustering_states.html#prompt",
+    "title": "Lab 17 – Clustering States by Historical Indicators",
+    "section": "✍️ Prompt:",
+    "text": "✍️ Prompt:\nWhat patterns emerge in the clusters? Are there geographic or ideological groupings?"
+  },
+  {
+    "objectID": "06_GlobalInstitutions/lab17_clustering_states.html#load-data",
+    "href": "06_GlobalInstitutions/lab17_clustering_states.html#load-data",
+    "title": "Lab 17 – Clustering States by Historical Indicators",
+    "section": "📥 Load Data",
+    "text": "📥 Load Data\n```{r. lab06b} library(tidyverse) library(here) indicators &lt;- read_csv(here::here(“assets/datasets/state_indicators.csv”)) set.seed(42) clusters &lt;- kmeans(indicators[, -1], centers = 4) indicators\\(cluster &lt;- clusters\\)cluster\nggplot(indicators, aes(x = literacy_rate, y = military_spending, color = factor(cluster))) + geom_point() + labs(title = “Clustering States by Historical Indicators”, x = “Literacy Rate”, y = “Military Spending”) + theme_minimal() ```"
+  },
+  {
+    "objectID": "policy-memo.html",
+    "href": "policy-memo.html",
+    "title": "Policy Memo: Strategic Response to Rebellion Risk",
+    "section": "",
+    "text": "Strategic Response to Rebellion Risk\n\n\nPrepared for: Ministry of Foreign Affairs"
+  },
+  {
+    "objectID": "policy-memo.html#executive-summary",
+    "href": "policy-memo.html#executive-summary",
+    "title": "Policy Memo: Strategic Response to Rebellion Risk",
+    "section": "Executive Summary",
+    "text": "Executive Summary\nRecent simulations indicate a heightened risk of rebellion in regions with low GDP per capita and high ethnic fractionalization. This memo outlines strategic policy responses based on quantitative modeling."
+  },
+  {
+    "objectID": "policy-memo.html#simulation-findings",
+    "href": "policy-memo.html#simulation-findings",
+    "title": "Policy Memo: Strategic Response to Rebellion Risk",
+    "section": "Simulation Findings",
+    "text": "Simulation Findings\nsource(“assets/scripts/simulate_rebellion.R”) simulate_rebellion(gdp = 950, regime = “autocracy”, ethnic_frac = 0.72, repression = 0.85)"
+  },
+  {
+    "objectID": "08_RegionalCaseStudies/lab22_colonial_legacies.html",
+    "href": "08_RegionalCaseStudies/lab22_colonial_legacies.html",
+    "title": "Lab 22 – Colonial Legacies in Development",
+    "section": "",
+    "text": "Compare postcolonial development indicators across former British, French, and Spanish colonies."
+  },
+  {
+    "objectID": "08_RegionalCaseStudies/lab22_colonial_legacies.html#objective",
+    "href": "08_RegionalCaseStudies/lab22_colonial_legacies.html#objective",
+    "title": "Lab 22 – Colonial Legacies in Development",
+    "section": "",
+    "text": "Compare postcolonial development indicators across former British, French, and Spanish colonies."
+  },
+  {
+    "objectID": "08_RegionalCaseStudies/lab22_colonial_legacies.html#prompt",
+    "href": "08_RegionalCaseStudies/lab22_colonial_legacies.html#prompt",
+    "title": "Lab 22 – Colonial Legacies in Development",
+    "section": "✍️ Prompt:",
+    "text": "✍️ Prompt:\nDo colonial legacies correlate with development outcomes? What exceptions challenge the trend?"
+  },
+  {
+    "objectID": "08_RegionalCaseStudies/lab22_colonial_legacies.html#load-data",
+    "href": "08_RegionalCaseStudies/lab22_colonial_legacies.html#load-data",
+    "title": "Lab 22 – Colonial Legacies in Development",
+    "section": "📥 Load Data",
+    "text": "📥 Load Data\n\n# The data file 'colonial_legacies.csv' is missing.\n# Please provide this file to enable the visualization.\n# library(tidyverse)\n# library(here)\n# colonies &lt;- read_csv(here::here(\"assets/datasets/colonial_legacies.csv\"))\n# \n# ggplot(colonies, aes(x = colonial_power, y = literacy_rate, fill = colonial_power)) +\n#   geom_boxplot() +\n#   labs(title = \"Literacy Rates by Colonial Legacy\",\n#        x = \"Colonial Power\", y = \"Literacy Rate (%)\") +\n#   theme_minimal()"
+  },
+  {
+    "objectID": "07_QuantitativeMethods/lab21_latin_america_conflict.html",
+    "href": "07_QuantitativeMethods/lab21_latin_america_conflict.html",
+    "title": "Lab 21 – Conflict and Development in Latin America",
+    "section": "",
+    "text": "Investigate the relationship between political instability and development indicators in Latin America."
+  },
+  {
+    "objectID": "07_QuantitativeMethods/lab21_latin_america_conflict.html#objective",
+    "href": "07_QuantitativeMethods/lab21_latin_america_conflict.html#objective",
+    "title": "Lab 21 – Conflict and Development in Latin America",
+    "section": "",
+    "text": "Investigate the relationship between political instability and development indicators in Latin America."
+  },
+  {
+    "objectID": "07_QuantitativeMethods/lab21_latin_america_conflict.html#prompt",
+    "href": "07_QuantitativeMethods/lab21_latin_america_conflict.html#prompt",
+    "title": "Lab 21 – Conflict and Development in Latin America",
+    "section": "✍️ Prompt:",
+    "text": "✍️ Prompt:\nDo higher conflict levels correlate with lower development outcomes? What exceptions exist?"
+  },
+  {
+    "objectID": "07_QuantitativeMethods/lab21_latin_america_conflict.html#load-data",
+    "href": "07_QuantitativeMethods/lab21_latin_america_conflict.html#load-data",
+    "title": "Lab 21 – Conflict and Development in Latin America",
+    "section": "📥 Load Data",
+    "text": "📥 Load Data\n\n# The data file 'latin_america_conflict.csv' is missing.\n# Please provide this file to enable the visualization.\n# library(tidyverse)\n# library(here)\n# latin &lt;- read_csv(here::here(\"assets/datasets/latin_america_conflict.csv\"))\n# \n# library(GGally)\n# ggpairs(latin[, c(\"conflict_index\", \"gdp\", \"education_spending\")])"
+  },
+  {
+    "objectID": "07_QuantitativeMethods/lab20_asia_modernization.html",
+    "href": "07_QuantitativeMethods/lab20_asia_modernization.html",
+    "title": "Lab 20 – Modernization in East and Southeast Asia",
+    "section": "",
+    "text": "Explore industrialization and demographic shifts in Asia from 1950 to 2000."
+  },
+  {
+    "objectID": "07_QuantitativeMethods/lab20_asia_modernization.html#objective",
+    "href": "07_QuantitativeMethods/lab20_asia_modernization.html#objective",
+    "title": "Lab 20 – Modernization in East and Southeast Asia",
+    "section": "",
+    "text": "Explore industrialization and demographic shifts in Asia from 1950 to 2000."
+  },
+  {
+    "objectID": "07_QuantitativeMethods/lab20_asia_modernization.html#prompt",
+    "href": "07_QuantitativeMethods/lab20_asia_modernization.html#prompt",
+    "title": "Lab 20 – Modernization in East and Southeast Asia",
+    "section": "✍️ Prompt:",
+    "text": "✍️ Prompt:\nWhat patterns emerge in urbanization? How do they relate to industrial output and education?"
+  },
+  {
+    "objectID": "07_QuantitativeMethods/lab20_asia_modernization.html#load-data",
+    "href": "07_QuantitativeMethods/lab20_asia_modernization.html#load-data",
+    "title": "Lab 20 – Modernization in East and Southeast Asia",
+    "section": "📥 Load Data",
+    "text": "📥 Load Data\n\n# The data file 'asia_modernization.csv' is missing.\n# Please provide this file to enable the visualization.\n# library(tidyverse)\n# library(here)\n# asia &lt;- read_csv(here::here(\"assets/datasets/asia_modernization.csv\"))\n# ggplot(asia, aes(x = year, y = urbanization_rate, color = country)) +\n#   geom_line() +\n#   labs(title = \"Urbanization Trends in Asia\",\n#        x = \"Year\", y = \"Urbanization Rate (%)\") +\n#   theme_minimal()"
+  },
+  {
+    "objectID": "04_ColdWarDynamics/lab10_war_impact_modeling.html",
+    "href": "04_ColdWarDynamics/lab10_war_impact_modeling.html",
+    "title": "Lab 10 – Modeling the Impact of War",
+    "section": "",
+    "text": "Quantify the economic and institutional effects of major conflicts."
+  },
+  {
+    "objectID": "04_ColdWarDynamics/lab10_war_impact_modeling.html#objective",
+    "href": "04_ColdWarDynamics/lab10_war_impact_modeling.html#objective",
+    "title": "Lab 10 – Modeling the Impact of War",
+    "section": "",
+    "text": "Quantify the economic and institutional effects of major conflicts."
+  },
+  {
+    "objectID": "04_ColdWarDynamics/lab10_war_impact_modeling.html#prompt",
+    "href": "04_ColdWarDynamics/lab10_war_impact_modeling.html#prompt",
+    "title": "Lab 10 – Modeling the Impact of War",
+    "section": "✍️ Prompt:",
+    "text": "✍️ Prompt:\nWhich variables most strongly predict post-war economic decline? What policy implications follow?"
+  },
+  {
+    "objectID": "04_ColdWarDynamics/lab10_war_impact_modeling.html#load-data",
+    "href": "04_ColdWarDynamics/lab10_war_impact_modeling.html#load-data",
+    "title": "Lab 10 – Modeling the Impact of War",
+    "section": "📥 Load Data",
+    "text": "📥 Load Data\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(here)\n\nhere() starts at /home/nadugyam/projects/proj-git/IS655-Labs\n\nconflict_data &lt;- read_csv(here::here(\"assets/datasets/war_impact.csv\"))\n\nRows: 10 Columns: 6\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (4): country, major_conflict, conflict_type, years_active\ndbl (2): casualties_millions, infrastructure_damage_score\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n# The current dataset 'war_impact.csv' does not contain 'gdp_change' or 'war_duration' columns.\n# Therefore, the linear model cannot be performed with the current data.\n# If these columns are added to the dataset, the following code can be uncommented.\n\n# model &lt;- lm(gdp_change ~ war_duration + casualties + infrastructure_loss, data = conflict_data)\n# summary(model)"
+  },
+  {
+    "objectID": "02_RevolutionAndIdeology/lab05_policy_correlation_maps.html",
+    "href": "02_RevolutionAndIdeology/lab05_policy_correlation_maps.html",
+    "title": "Lab 05 – Ideologies and Governance Models",
+    "section": "",
+    "text": "Evaluate correlations among policy traits adopted by post-revolutionary governments. ## ✍️ Prompt:\nWhich policies tend to co-occur across regimes? What ideological connections do these patterns suggest?"
+  },
+  {
+    "objectID": "02_RevolutionAndIdeology/lab05_policy_correlation_maps.html#objective",
+    "href": "02_RevolutionAndIdeology/lab05_policy_correlation_maps.html#objective",
+    "title": "Lab 05 – Ideologies and Governance Models",
+    "section": "",
+    "text": "Evaluate correlations among policy traits adopted by post-revolutionary governments. ## ✍️ Prompt:\nWhich policies tend to co-occur across regimes? What ideological connections do these patterns suggest?"
+  },
+  {
+    "objectID": "02_RevolutionAndIdeology/lab05_policy_correlation_maps.html#setup",
+    "href": "02_RevolutionAndIdeology/lab05_policy_correlation_maps.html#setup",
+    "title": "Lab 05 – Ideologies and Governance Models",
+    "section": "📥 Setup",
+    "text": "📥 Setup\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(here)\n\nhere() starts at /home/nadugyam/projects/proj-git/IS655-Labs\n\npolicy_traits &lt;- read_csv(here::here(\"assets/datasets/governance_traits.csv\"))\n\nRows: 4 Columns: 4\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (4): empire, centralization, legal_system, representation\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\npolicy_traits # Display the data frame. More meaningful correlation analysis would require additional numeric columns.\n\n# A tibble: 4 × 4\n  empire  centralization legal_system   representation\n  &lt;chr&gt;   &lt;chr&gt;          &lt;chr&gt;          &lt;chr&gt;         \n1 British High           Common Law     Limited       \n2 French  Medium         Civil Law      Moderate      \n3 Ottoman Low            Religious Law  None          \n4 Russian High           Autocratic Law None"
+  },
+  {
+    "objectID": "02_RevolutionAndIdeology/lab04_revolutionary_spread.html",
+    "href": "02_RevolutionAndIdeology/lab04_revolutionary_spread.html",
+    "title": "Lab 04 – Tracing the Spread of Revolution",
+    "section": "",
+    "text": "Track revolutionary activity from 1789 to 1900 and explore spatial diffusion patterns."
+  },
+  {
+    "objectID": "02_RevolutionAndIdeology/lab04_revolutionary_spread.html#objective",
+    "href": "02_RevolutionAndIdeology/lab04_revolutionary_spread.html#objective",
+    "title": "Lab 04 – Tracing the Spread of Revolution",
+    "section": "",
+    "text": "Track revolutionary activity from 1789 to 1900 and explore spatial diffusion patterns."
+  },
+  {
+    "objectID": "02_RevolutionAndIdeology/lab04_revolutionary_spread.html#reflection",
+    "href": "02_RevolutionAndIdeology/lab04_revolutionary_spread.html#reflection",
+    "title": "Lab 04 – Tracing the Spread of Revolution",
+    "section": "✍️ Reflection:",
+    "text": "✍️ Reflection:\nWhat patterns emerge? Do revolutionary waves cluster in specific regions or periods? Identify possible causes."
+  },
+  {
+    "objectID": "02_RevolutionAndIdeology/lab04_revolutionary_spread.html#data",
+    "href": "02_RevolutionAndIdeology/lab04_revolutionary_spread.html#data",
+    "title": "Lab 04 – Tracing the Spread of Revolution",
+    "section": "📥 Data",
+    "text": "📥 Data\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(here)\n\nhere() starts at /home/nadugyam/projects/proj-git/IS655-Labs\n\nrevolutions &lt;- read_csv(here::here(\"assets/datasets/revolution_events.csv\"))\n\nRows: 5 Columns: 4\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (3): country, event, type\ndbl (1): year\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\nrevolutions %&gt;%\n  ggplot(aes(x = year, fill = country)) +\n  geom_histogram(binwidth = 5) +\n  labs(title = \"Frequency of Revolutionary Events\",\n       x = \"Year\", y = \"Number of Events\") +\n  theme_minimal()"
+  },
+  {
+    "objectID": "01_ImperialSystems/lab03_colonial_admin_models.html",
+    "href": "01_ImperialSystems/lab03_colonial_admin_models.html",
+    "title": "Lab 03 – Colonial Administration Models",
+    "section": "",
+    "text": "Analyze and model the distribution of colonial administrative spending across regions."
+  },
+  {
+    "objectID": "01_ImperialSystems/lab03_colonial_admin_models.html#objective",
+    "href": "01_ImperialSystems/lab03_colonial_admin_models.html#objective",
+    "title": "Lab 03 – Colonial Administration Models",
+    "section": "",
+    "text": "Analyze and model the distribution of colonial administrative spending across regions."
+  },
+  {
+    "objectID": "01_ImperialSystems/lab03_colonial_admin_models.html#prompt",
+    "href": "01_ImperialSystems/lab03_colonial_admin_models.html#prompt",
+    "title": "Lab 03 – Colonial Administration Models",
+    "section": "Prompt:",
+    "text": "Prompt:\nHow did budget allocation reflect priorities like military control, education, or infrastructure? What patterns emerge across empires?"
+  },
+  {
+    "objectID": "01_ImperialSystems/lab03_colonial_admin_models.html#data-load",
+    "href": "01_ImperialSystems/lab03_colonial_admin_models.html#data-load",
+    "title": "Lab 03 – Colonial Administration Models",
+    "section": "📥 Data Load",
+    "text": "📥 Data Load\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(here)\n\nhere() starts at /home/nadugyam/projects/proj-git/IS655-Labs\n\nadmin &lt;- read_csv(here::here(\"assets/datasets/colonial_budgets.csv\"))\n\nRows: 6 Columns: 3\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (2): region, expense_type\ndbl (1): budget\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\nadmin %&gt;%\n  ggplot(aes(x = region, y = budget, fill = expense_type)) +\n  geom_bar(stat = \"identity\", position = \"stack\") +\n  labs(title = \"Colonial Budget Allocations by Region\",\n       y = \"Budget (in millions)\", x = \"Region\") +\n  theme_minimal()"
+  },
+  {
+    "objectID": "01_ImperialSystems/lab01_empire_population.html",
+    "href": "01_ImperialSystems/lab01_empire_population.html",
+    "title": "Lab 01 – Demographics of Empire",
+    "section": "",
+    "text": "Explore how population growth varied across different colonial empires in the 19th century using historical datasets."
+  },
+  {
+    "objectID": "01_ImperialSystems/lab01_empire_population.html#objective",
+    "href": "01_ImperialSystems/lab01_empire_population.html#objective",
+    "title": "Lab 01 – Demographics of Empire",
+    "section": "",
+    "text": "Explore how population growth varied across different colonial empires in the 19th century using historical datasets."
+  },
+  {
+    "objectID": "01_ImperialSystems/lab01_empire_population.html#prompt",
+    "href": "01_ImperialSystems/lab01_empire_population.html#prompt",
+    "title": "Lab 01 – Demographics of Empire",
+    "section": "Prompt:",
+    "text": "Prompt:\nWrite 300–500 words interpreting differences in population trends. Consider the role of urbanization, migration, and policy within the imperial context."
+  },
+  {
+    "objectID": "01_ImperialSystems/lab01_empire_population.html#data-setup",
+    "href": "01_ImperialSystems/lab01_empire_population.html#data-setup",
+    "title": "Lab 01 – Demographics of Empire",
+    "section": "📥 Data Setup",
+    "text": "📥 Data Setup\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(here)\n\nhere() starts at /home/nadugyam/projects/proj-git/IS655-Labs\n\npop_data &lt;- read_csv(here::here(\"assets/datasets/colonial_population.csv\"))\n\nRows: 9 Columns: 3\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (1): empire\ndbl (2): year, population\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\npop_data %&gt;%\n  ggplot(aes(x = year, y = population, color = empire)) +\n  geom_line(size=1) +\n  labs(title = \"Colonial Population Growth (1800–1900)\",\n       y = \"Population (millions)\", x = \"Year\") +\n  theme_minimal()\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead."
+  },
+  {
+    "objectID": "01_ImperialSystems/lab01_empire_population.html#reflection-prompt",
+    "href": "01_ImperialSystems/lab01_empire_population.html#reflection-prompt",
+    "title": "Lab 01 – Demographics of Empire",
+    "section": "✍️ Reflection Prompt",
+    "text": "✍️ Reflection Prompt\nWrite 300–500 words interpreting differences in population trends. Consider the role of urbanization, migration, and policy within the imperial context."
+  },
+  {
+    "objectID": "01_ImperialSystems/lab02_trade_routes_visualization.html",
+    "href": "01_ImperialSystems/lab02_trade_routes_visualization.html",
+    "title": "Lab 02 – Mapping Empire Trade",
+    "section": "",
+    "text": "Visualize major trade flows across empires using commodity-based export data from the 19th century."
+  },
+  {
+    "objectID": "01_ImperialSystems/lab02_trade_routes_visualization.html#objective",
+    "href": "01_ImperialSystems/lab02_trade_routes_visualization.html#objective",
+    "title": "Lab 02 – Mapping Empire Trade",
+    "section": "",
+    "text": "Visualize major trade flows across empires using commodity-based export data from the 19th century."
+  },
+  {
+    "objectID": "01_ImperialSystems/lab02_trade_routes_visualization.html#prompt",
+    "href": "01_ImperialSystems/lab02_trade_routes_visualization.html#prompt",
+    "title": "Lab 02 – Mapping Empire Trade",
+    "section": "Prompt:",
+    "text": "Prompt:\nWhich empires specialized in which commodities, and why? Discuss how trade patterns shaped foreign policy strategies."
+  },
+  {
+    "objectID": "01_ImperialSystems/lab02_trade_routes_visualization.html#setup",
+    "href": "01_ImperialSystems/lab02_trade_routes_visualization.html#setup",
+    "title": "Lab 02 – Mapping Empire Trade",
+    "section": "📥 Setup",
+    "text": "📥 Setup\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(here)\n\nhere() starts at /home/nadugyam/projects/proj-git/IS655-Labs\n\ntrade &lt;- read_csv(here::here(\"assets/datasets/imperial_trade.csv\"))\n\nRows: 6 Columns: 3\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (2): empire, commodity\ndbl (1): export_value\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\ntrade %&gt;%\n  ggplot(aes(x = export_value, y = commodity, fill = empire)) +\n  geom_col(position = \"dodge\") +\n  labs(title = \"Colonial Commodity Exports by Empire\",\n       x = \"Export Value (in millions)\", y = \"Commodity\") +\n  theme_bw()"
+  },
+  {
+    "objectID": "02_RevolutionAndIdeology/lab06_ideology_clustering.html",
+    "href": "02_RevolutionAndIdeology/lab06_ideology_clustering.html",
+    "title": "Lab 06 – Clustering Ideological Alignments",
+    "section": "",
+    "text": "Group states by ideology using unsupervised learning. ## ✍️ Prompt: Examine which countries cluster together. What values or policies do they share? Could this method help predict future alliances?"
+  },
+  {
+    "objectID": "02_RevolutionAndIdeology/lab06_ideology_clustering.html#objective",
+    "href": "02_RevolutionAndIdeology/lab06_ideology_clustering.html#objective",
+    "title": "Lab 06 – Clustering Ideological Alignments",
+    "section": "",
+    "text": "Group states by ideology using unsupervised learning. ## ✍️ Prompt: Examine which countries cluster together. What values or policies do they share? Could this method help predict future alliances?"
+  },
+  {
+    "objectID": "02_RevolutionAndIdeology/lab06_ideology_clustering.html#load-data",
+    "href": "02_RevolutionAndIdeology/lab06_ideology_clustering.html#load-data",
+    "title": "Lab 06 – Clustering Ideological Alignments",
+    "section": "📥 Load Data",
+    "text": "📥 Load Data\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(cluster)\nlibrary(here)\n\nhere() starts at /home/nadugyam/projects/proj-git/IS655-Labs\n\nideology &lt;- read_csv(here::here(\"assets/datasets/ideology_attributes.csv\"))\n\nRows: 4 Columns: 4\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (4): ideology, origin, core_values, spread_method\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n# The current dataset 'ideology_attributes.csv' contains only categorical data.\n# K-means clustering requires numerical data.\n# If numerical attributes (e.g., economic_policy, media_freedom) are added to the dataset,\n# the following code can be uncommented to perform clustering and visualization.\n\n# set.seed(123)\n# clust &lt;- kmeans(ideology[, -1], centers = 3)\n# ideology$cluster &lt;- clust$cluster\n\n# ggplot(ideology, aes(x = economic_policy, y = media_freedom, color = factor(cluster))) +\n#   geom_point() +\n#   labs(title = \"Ideological Clustering of States\",\n#        x = \"Economic Policy Score\", y = \"Media Freedom Score\") +\n#   theme_minimal()"
+  },
+  {
+    "objectID": "04_ColdWarDynamics/lab12_institutional_legacies.html",
+    "href": "04_ColdWarDynamics/lab12_institutional_legacies.html",
+    "title": "Lab 12 – Institutional Legacies of Conflict",
+    "section": "",
+    "text": "Explore how conflict shapes long-term institutional development."
+  },
+  {
+    "objectID": "04_ColdWarDynamics/lab12_institutional_legacies.html#objective",
+    "href": "04_ColdWarDynamics/lab12_institutional_legacies.html#objective",
+    "title": "Lab 12 – Institutional Legacies of Conflict",
+    "section": "",
+    "text": "Explore how conflict shapes long-term institutional development."
+  },
+  {
+    "objectID": "04_ColdWarDynamics/lab12_institutional_legacies.html#prompt",
+    "href": "04_ColdWarDynamics/lab12_institutional_legacies.html#prompt",
+    "title": "Lab 12 – Institutional Legacies of Conflict",
+    "section": "✍️ Prompt:",
+    "text": "✍️ Prompt:\nDo post-conflict institutions converge or diverge over time? What factors influence these trajectories?"
+  },
+  {
+    "objectID": "04_ColdWarDynamics/lab12_institutional_legacies.html#load-data",
+    "href": "04_ColdWarDynamics/lab12_institutional_legacies.html#load-data",
+    "title": "Lab 12 – Institutional Legacies of Conflict",
+    "section": "📥 Load Data",
+    "text": "📥 Load Data\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(here)\n\nhere() starts at /home/nadugyam/projects/proj-git/IS655-Labs\n\nlegacy &lt;- read_csv(here::here(\"assets/datasets/institutional_legacies.csv\"))\n\nRows: 10 Columns: 5\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (4): country, region, colonial_history, postwar_alignment\ndbl (1): legacy_score\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n# The current dataset 'institutional_legacies.csv' does not contain a 'year' column.\n# Therefore, time-series plotting is not feasible with this data.\n# If time-series data is added, the following code can be uncommented.\n\n# legacy %&gt;%\n#   ggplot(aes(x = year, y = legacy_score, color = country)) +\n#   geom_line() +\n#   labs(title = \"Institutional Quality Over Time\",\n#        x = \"Year\", y = \"Quality Index\") +\n#   theme_minimal()"
+  },
+  {
+    "objectID": "04_ColdWarDynamics/lab11_reconstruction_strategies.html",
+    "href": "04_ColdWarDynamics/lab11_reconstruction_strategies.html",
+    "title": "Lab 11 – Post-Conflict Reconstruction Strategies",
+    "section": "",
+    "text": "Compare reconstruction approaches across different historical contexts. ## ✍️ Prompt: Which strategies yield the most consistent recovery? Are there regional patterns?"
+  },
+  {
+    "objectID": "04_ColdWarDynamics/lab11_reconstruction_strategies.html#objective",
+    "href": "04_ColdWarDynamics/lab11_reconstruction_strategies.html#objective",
+    "title": "Lab 11 – Post-Conflict Reconstruction Strategies",
+    "section": "",
+    "text": "Compare reconstruction approaches across different historical contexts. ## ✍️ Prompt: Which strategies yield the most consistent recovery? Are there regional patterns?"
+  },
+  {
+    "objectID": "04_ColdWarDynamics/lab11_reconstruction_strategies.html#load-data",
+    "href": "04_ColdWarDynamics/lab11_reconstruction_strategies.html#load-data",
+    "title": "Lab 11 – Post-Conflict Reconstruction Strategies",
+    "section": "📥 Load Data",
+    "text": "📥 Load Data\n\n# The data file 'reconstruction_strategies.csv' is missing.\n# Please provide this file to enable the visualization.\n# library(tidyverse)\n# library(here)\n# recovery &lt;- read_csv(here::here(\"assets/datasets/reconstruction_strategies.csv\"))\n# recovery %&gt;%\n#   ggplot(aes(x = strategy, y = recovery_score, fill = region)) +\n#   geom_boxplot() +\n#   labs(title = \"Effectiveness of Reconstruction Strategies\",\n#        x = \"Strategy Type\", y = \"Recovery Score\") +\n#   theme_minimal()"
+  },
+  {
+    "objectID": "07_QuantitativeMethods/lab19_european_reconstruction.html",
+    "href": "07_QuantitativeMethods/lab19_european_reconstruction.html",
+    "title": "Lab 19 – European Reconstruction After WWII",
+    "section": "",
+    "text": "Analyze postwar economic recovery in Western and Eastern Europe using historical GDP and aid data."
+  },
+  {
+    "objectID": "07_QuantitativeMethods/lab19_european_reconstruction.html#objective",
+    "href": "07_QuantitativeMethods/lab19_european_reconstruction.html#objective",
+    "title": "Lab 19 – European Reconstruction After WWII",
+    "section": "",
+    "text": "Analyze postwar economic recovery in Western and Eastern Europe using historical GDP and aid data."
+  },
+  {
+    "objectID": "07_QuantitativeMethods/lab19_european_reconstruction.html#prompt",
+    "href": "07_QuantitativeMethods/lab19_european_reconstruction.html#prompt",
+    "title": "Lab 19 – European Reconstruction After WWII",
+    "section": "✍️ Prompt:",
+    "text": "✍️ Prompt:\nCompare recovery trajectories. How did Marshall Plan aid correlate with economic growth?"
+  },
+  {
+    "objectID": "07_QuantitativeMethods/lab19_european_reconstruction.html#load-data",
+    "href": "07_QuantitativeMethods/lab19_european_reconstruction.html#load-data",
+    "title": "Lab 19 – European Reconstruction After WWII",
+    "section": "📥 Load Data",
+    "text": "📥 Load Data\n\n# The data file 'europe_reconstruction.csv' is missing.\n# Please provide this file to enable the visualization.\n# library(tidyverse)\n# library(here)\n# europe &lt;- read_csv(here::here(\"assets/datasets/europe_reconstruction.csv\"))\n# \n# ggplot(europe, aes(x = year, y = gdp, color = region)) +\n#   geom_line() +\n#   labs(title = \"GDP Recovery in Europe Post-WWII\",\n#        x = \"Year\", y = \"GDP (billions USD)\") +\n#   theme_minimal()"
+  },
+  {
+    "objectID": "08_RegionalCaseStudies/lab24_institutional_quality.html",
+    "href": "08_RegionalCaseStudies/lab24_institutional_quality.html",
+    "title": "Lab 24 – Institutional Quality Across Regions",
+    "section": "",
+    "text": "Evaluate institutional strength using governance indicators across continents."
+  },
+  {
+    "objectID": "08_RegionalCaseStudies/lab24_institutional_quality.html#objective",
+    "href": "08_RegionalCaseStudies/lab24_institutional_quality.html#objective",
+    "title": "Lab 24 – Institutional Quality Across Regions",
+    "section": "",
+    "text": "Evaluate institutional strength using governance indicators across continents."
+  },
+  {
+    "objectID": "08_RegionalCaseStudies/lab24_institutional_quality.html#prompt",
+    "href": "08_RegionalCaseStudies/lab24_institutional_quality.html#prompt",
+    "title": "Lab 24 – Institutional Quality Across Regions",
+    "section": "✍️ Prompt:",
+    "text": "✍️ Prompt:\nWhich regions show institutional strengths or weaknesses? How do these patterns align with historical trajectories?"
+  },
+  {
+    "objectID": "08_RegionalCaseStudies/lab24_institutional_quality.html#load-data",
+    "href": "08_RegionalCaseStudies/lab24_institutional_quality.html#load-data",
+    "title": "Lab 24 – Institutional Quality Across Regions",
+    "section": "📥 Load Data",
+    "text": "📥 Load Data\n\n# The data file 'institutional_quality.csv' is missing.\n# Please provide this file to enable the visualization.\n# library(tidyverse)\n# library(here)\n# institutions &lt;- read_csv(here::here(\"assets/datasets/institutional_quality.csv\"))\n# library(fmsb)\n# \n# # Prepare data\n# radar &lt;- institutions %&gt;%\n#   filter(region %in% c(\"Africa\", \"Asia\", \"Europe\")) %&gt;%\n#   select(region, rule_of_law, transparency, accountability)\n# \n# radar &lt;- as.data.frame(radar)\n# radar &lt;- rbind(rep(100, 3), rep(0, 3), radar[,-1])\n# rownames(radar) &lt;- c(\"Max\", \"Min\", radar$region)\n# \n# radarchart(radar, axistype = 1,\n#            pcol = c(\"darkred\", \"darkblue\", \"darkgreen\"),\n#            plwd = 2, plty = 1,\n#            title = \"Institutional Quality by Region\")"
+  },
+  {
+    "objectID": "08_RegionalCaseStudies/lab23_authoritarian_vs_democratic.html",
+    "href": "08_RegionalCaseStudies/lab23_authoritarian_vs_democratic.html",
+    "title": "Lab 23 – Authoritarian vs. Democratic Development Models",
+    "section": "",
+    "text": "Compare economic and social indicators between authoritarian and democratic regimes."
+  },
+  {
+    "objectID": "08_RegionalCaseStudies/lab23_authoritarian_vs_democratic.html#objective",
+    "href": "08_RegionalCaseStudies/lab23_authoritarian_vs_democratic.html#objective",
+    "title": "Lab 23 – Authoritarian vs. Democratic Development Models",
+    "section": "",
+    "text": "Compare economic and social indicators between authoritarian and democratic regimes."
+  },
+  {
+    "objectID": "08_RegionalCaseStudies/lab23_authoritarian_vs_democratic.html#prompt",
+    "href": "08_RegionalCaseStudies/lab23_authoritarian_vs_democratic.html#prompt",
+    "title": "Lab 23 – Authoritarian vs. Democratic Development Models",
+    "section": "✍️ Prompt:",
+    "text": "✍️ Prompt:\nWhich regime type shows stronger development outcomes? What trade-offs are visible?"
+  },
+  {
+    "objectID": "08_RegionalCaseStudies/lab23_authoritarian_vs_democratic.html#load-data",
+    "href": "08_RegionalCaseStudies/lab23_authoritarian_vs_democratic.html#load-data",
+    "title": "Lab 23 – Authoritarian vs. Democratic Development Models",
+    "section": "📥 Load Data",
+    "text": "📥 Load Data\n\n# The data file 'regime_comparison.csv' is missing.\n# Please provide this file to enable the visualization.\n# library(tidyverse)\n# library(here)\n# regimes &lt;- read_csv(here::here(\"assets/datasets/regime_comparison.csv\"))\n# \n# ggplot(regimes, aes(x = gdp_per_capita, y = education_index, color = regime_type)) +\n#   geom_point() +\n#   labs(title = \"Development Outcomes by Regime Type\",\n#        x = \"GDP per Capita\", y = \"Education Index\") +\n#   theme_minimal()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to IS655: International History",
+    "section": "",
+    "text": "Welcome to IS655, a graduate seminar at Old Dominion University taught by Dr. Austin Jersild. This site hosts 100 interactive labs exploring international history through data visualization, policy modeling, and computational analysis using R and Quarto."
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Welcome to IS655: International History",
+    "section": "",
+    "text": "Welcome to IS655, a graduate seminar at Old Dominion University taught by Dr. Austin Jersild. This site hosts 100 interactive labs exploring international history through data visualization, policy modeling, and computational analysis using R and Quarto."
+  },
+  {
+    "objectID": "index.html#lab-themes",
+    "href": "index.html#lab-themes",
+    "title": "Welcome to IS655: International History",
+    "section": "🔍 Lab Themes",
+    "text": "🔍 Lab Themes\n\nImperial Systems\nRevolutions & Ideology\nGlobal Conflicts & Cold War Dynamics\nDecolonization & Development\nInstitutions & Policy Memo Toolkits"
+  },
+  {
+    "objectID": "index.html#getting-started",
+    "href": "index.html#getting-started",
+    "title": "Welcome to IS655: International History",
+    "section": "📦 Getting Started",
+    "text": "📦 Getting Started\nTo begin, visit the Syllabus or explore the labs by theme in the navigation bar.\nHappy exploring!"
+  },
+  {
+    "objectID": "06_GlobalInstitutions/lab16_linear_regression.html",
+    "href": "06_GlobalInstitutions/lab16_linear_regression.html",
+    "title": "Lab 16 – Linear Regression in Historical Analysis",
+    "section": "",
+    "text": "Use linear regression to model historical trends such as GDP growth or military expenditure. ## ✍️ Prompt:\nInterpret the coefficients. What do they suggest about regional economic trajectories?"
+  },
+  {
+    "objectID": "06_GlobalInstitutions/lab16_linear_regression.html#objective",
+    "href": "06_GlobalInstitutions/lab16_linear_regression.html#objective",
+    "title": "Lab 16 – Linear Regression in Historical Analysis",
+    "section": "",
+    "text": "Use linear regression to model historical trends such as GDP growth or military expenditure. ## ✍️ Prompt:\nInterpret the coefficients. What do they suggest about regional economic trajectories?"
+  },
+  {
+    "objectID": "06_GlobalInstitutions/lab16_linear_regression.html#load-data",
+    "href": "06_GlobalInstitutions/lab16_linear_regression.html#load-data",
+    "title": "Lab 16 – Linear Regression in Historical Analysis",
+    "section": "📥 Load Data",
+    "text": "📥 Load Data\n\n# The data file 'historical_gdp.csv' is missing.\n# Please provide this file to enable the analysis.\n# library(tidyverse)\n# library(here)\n# gdp &lt;- read_csv(here::here(\"assets/datasets/historical_gdp.csv\"))\n# \n# model &lt;- lm(gdp ~ year + region, data = gdp)\n# summary(model)"
+  },
+  {
+    "objectID": "git_branching_guide.html",
+    "href": "git_branching_guide.html",
+    "title": "IS655: International History Labs",
+    "section": "",
+    "text": "Summary of Git Branching Commands\n\nCreate and switch to a new branch: git checkout -b new-feature-name\nWork on the branch: (Make your code changes) git add . git commit -m \"Describe your work\"\nSwitch back to the main branch: git checkout main\nUpdate your local main branch (important!): git pull origin main\nMerge your new feature into main: git merge new-feature-name\nPush the updated main branch to GitHub: git push origin main\nDelete your local feature branch (optional cleanup): git branch -d new-feature-name\n\n\n\n\nWhere Do These Commands Run?\nThis is a breakdown of where each type of command operates:\n\nWorkspace (Working Directory):\n\nWhat it is: The actual files and folders you can see and edit on your computer.\nThink of it as: Your workbench.\n\nLocal Repository (Local Repo):\n\nWhat it is: The hidden .git directory inside your project. It’s Git’s private database on your machine, storing all history, branches, and commits.\nThink of it as: Your private library of snapshots.\n\nRemote Repository (Remote Repo):\n\nWhat it is: The version of your repository hosted on a server like GitHub.\nThink of it as: The central, public library for collaboration and backup.\n\n\n\n\n\nCommand Breakdown\n\n\n\n\n\n\n\n\nCommand\nWhere it Acts\nWhat it Does\n\n\n\n\ngit checkout -b ...\nLocal Repo & Workspace\nCreates a new branch in your local repo and updates your workspace files to match.\n\n\ngit add .\nWorkspace -&gt; Local Repo\nAdds changes from your workspace to the staging area (in the local repo).\n\n\ngit commit -m \"...\"\nLocal Repo\nSaves a permanent snapshot (commit) of the staged files into your local repo’s history.\n\n\ngit checkout main\nLocal Repo & Workspace\nSwitches the active branch in your local repo and updates your workspace files.\n\n\ngit merge ...\nLocal Repo & Workspace\nCombines history from another branch into your current branch in the local repo and updates the workspace.\n\n\ngit branch -d ...\nLocal Repo\nDeletes a branch from your local repo.\n\n\ngit pull origin main\nRemote -&gt; Local\nConnects to the remote. Fetches changes from the remote repo and merges them into your local branch.\n\n\ngit push origin main\nLocal -&gt; Remote\nConnects to the remote. Sends commits from your local repo up to the remote repo.\n\n\n\nThe Big Takeaway: You work entirely locally. The only two common commands that contact the remote server are git pull and git push."
+  },
+  {
+    "objectID": "03_GlobalConflict/lab07_state_capacity.html",
+    "href": "03_GlobalConflict/lab07_state_capacity.html",
+    "title": "Lab 07 – Measuring State Capacity",
+    "section": "",
+    "text": "Quantify state capacity across empires using fiscal, military, and bureaucratic indicators. ## ✍️ Prompt:\nWhich empires show sustained capacity growth? What historical events might explain declines?"
+  },
+  {
+    "objectID": "03_GlobalConflict/lab07_state_capacity.html#objective",
+    "href": "03_GlobalConflict/lab07_state_capacity.html#objective",
+    "title": "Lab 07 – Measuring State Capacity",
+    "section": "",
+    "text": "Quantify state capacity across empires using fiscal, military, and bureaucratic indicators. ## ✍️ Prompt:\nWhich empires show sustained capacity growth? What historical events might explain declines?"
+  },
+  {
+    "objectID": "03_GlobalConflict/lab07_state_capacity.html#load-data",
+    "href": "03_GlobalConflict/lab07_state_capacity.html#load-data",
+    "title": "Lab 07 – Measuring State Capacity",
+    "section": "📥 Load Data",
+    "text": "📥 Load Data\n\n# library(tidyverse)\n# library(here)\n# state_data &lt;- read_csv(here::here(\"assets/datasets/state_capacity.csv\"))\n\n# state_data &lt;- state_data %&gt;%\n#   mutate(capacity_index = (tax_revenue + army_size + admin_density) / 3)\n\n# ggplot(state_data, aes(x = year, y = capacity_index, color = empire)) +\n#   geom_line() +\n#   labs(title = \"State Capacity Over Time\",\n#        x = \"Year\", y = \"Composite Capacity Index\") +\n#   theme_minimal()"
+  },
+  {
+    "objectID": "05_DecolonizationAndDevelopment/lab14_institutional_convergence.html",
+    "href": "05_DecolonizationAndDevelopment/lab14_institutional_convergence.html",
+    "title": "Lab 14 – Institutional Convergence Across Borders",
+    "section": "",
+    "text": "Assess whether institutions across countries are becoming more similar over time. ## ✍️ Prompt: Are institutions converging globally? What drives convergence or divergence?"
+  },
+  {
+    "objectID": "05_DecolonizationAndDevelopment/lab14_institutional_convergence.html#objective",
+    "href": "05_DecolonizationAndDevelopment/lab14_institutional_convergence.html#objective",
+    "title": "Lab 14 – Institutional Convergence Across Borders",
+    "section": "",
+    "text": "Assess whether institutions across countries are becoming more similar over time. ## ✍️ Prompt: Are institutions converging globally? What drives convergence or divergence?"
+  },
+  {
+    "objectID": "05_DecolonizationAndDevelopment/lab14_institutional_convergence.html#load-data",
+    "href": "05_DecolonizationAndDevelopment/lab14_institutional_convergence.html#load-data",
+    "title": "Lab 14 – Institutional Convergence Across Borders",
+    "section": "📥 Load Data",
+    "text": "📥 Load Data\n\n# library(tidyverse)\n# library(here)\n# convergence &lt;- read_csv(here::here(\"assets/datasets/institutional_convergence.csv\"))\n# convergence %&gt;%\n#   ggplot(aes(x = year, y = similarity_score, color = region)) +\n#   geom_line() +\n#   labs(title = \"Institutional Convergence Over Time\",\n#        x = \"Year\", y = \"Similarity Score\") +\n#   theme_minimal()"
+  },
+  {
+    "objectID": "05_DecolonizationAndDevelopment/lab15_global_governance.html",
+    "href": "05_DecolonizationAndDevelopment/lab15_global_governance.html",
+    "title": "Lab 15 – Modeling Global Governance Structures",
+    "section": "",
+    "text": "Explore the structure and influence of global governance institutions. ## ✍️ Prompt: Which institutions dominate global governance? How do their domains shape international cooperation?"
+  },
+  {
+    "objectID": "05_DecolonizationAndDevelopment/lab15_global_governance.html#objective",
+    "href": "05_DecolonizationAndDevelopment/lab15_global_governance.html#objective",
+    "title": "Lab 15 – Modeling Global Governance Structures",
+    "section": "",
+    "text": "Explore the structure and influence of global governance institutions. ## ✍️ Prompt: Which institutions dominate global governance? How do their domains shape international cooperation?"
+  },
+  {
+    "objectID": "05_DecolonizationAndDevelopment/lab15_global_governance.html#load-data",
+    "href": "05_DecolonizationAndDevelopment/lab15_global_governance.html#load-data",
+    "title": "Lab 15 – Modeling Global Governance Structures",
+    "section": "📥 Load Data",
+    "text": "📥 Load Data\n\n# library(tidyverse)\n# library(here)\n# governance &lt;- read_csv(here::here(\"assets/datasets/global_governance.csv\"))\n\n# governance %&gt;%\n#   ggplot(aes(x = institution, y = influence_score, fill = domain)) +\n#   geom_col() +\n#   coord_flip() +\n#   labs(title = \"Influence of Global Governance Institutions\",\n#        x = \"Institution\", y = \"Influence Score\") +\n#   theme_minimal()"
+  },
+  {
+    "objectID": "09_PolicyMemoToolkits/lab26_data_driven_memo.html",
+    "href": "09_PolicyMemoToolkits/lab26_data_driven_memo.html",
+    "title": "Lab 26 – Data-Driven Policy Memo",
+    "section": "",
+    "text": "Guide students in integrating quantitative analysis into policy writing."
+  },
+  {
+    "objectID": "09_PolicyMemoToolkits/lab26_data_driven_memo.html#objective",
+    "href": "09_PolicyMemoToolkits/lab26_data_driven_memo.html#objective",
+    "title": "Lab 26 – Data-Driven Policy Memo",
+    "section": "",
+    "text": "Guide students in integrating quantitative analysis into policy writing."
+  },
+  {
+    "objectID": "09_PolicyMemoToolkits/lab26_data_driven_memo.html#prompt",
+    "href": "09_PolicyMemoToolkits/lab26_data_driven_memo.html#prompt",
+    "title": "Lab 26 – Data-Driven Policy Memo",
+    "section": "✍️ Prompt:",
+    "text": "✍️ Prompt:\nWrite a memo evaluating the effectiveness of international aid in post-conflict recovery. Use the chart above to support your recommendations."
+  },
+  {
+    "objectID": "09_PolicyMemoToolkits/lab26_data_driven_memo.html#load-data",
+    "href": "09_PolicyMemoToolkits/lab26_data_driven_memo.html#load-data",
+    "title": "Lab 26 – Data-Driven Policy Memo",
+    "section": "📥 Load Data",
+    "text": "📥 Load Data\n\n# library(tidyverse)\n# library(here)\n# reconstruction &lt;- read_csv(here::here(\"assets/datasets/post_conflict_reconstruction.csv\"))\n# ggplot(reconstruction, aes(x = year, y = aid_received, color = country)) +\n#   geom_line() +\n#   labs(title = \"Aid Received Over Time\",\n#        x = \"Year\", y = \"Aid (USD Millions)\") +\n#   theme_minimal()"
+  }
+]

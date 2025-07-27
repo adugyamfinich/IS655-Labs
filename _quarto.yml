@@ -7,32 +7,32 @@ website:
   navbar:
     left:
       - text: Home
-        href: index.qmd
+        href: index.html
       - text: Syllabus
-        href: syllabus.qmd
+        href: syllabus.html
       - text: Policy Memo
-        href: policy-memo.qmd
+        href: policy-memo.html
       - text: Lab Modules
         menu:
           - text: Imperial Systems
-            href: 01_ImperialSystems/lab01_empire_population.qmd
+            href: 01_ImperialSystems/lab01_empire_population.html
           - text: Revolution & Ideology
-            href: 02_RevolutionAndIdeology/lab04_revolutionary_spread.qmd
+            href: 02_RevolutionAndIdeology/lab04_revolutionary_spread.html
           - text: Global Conflict
-            href: 03_GlobalConflict/lab07_WWI_casualty_models.qmd
+            href: 03_GlobalConflict/lab07_state_capacity.html
           - text: Cold War Dynamics
-            href: 04_ColdWarDynamics/lab10_alliance_networks.qmd
+            href: 04_ColdWarDynamics/lab10_war_impact_modeling.html
           - text: Decolonization & Development
-            href: 05_DecolonizationAndDevelopment/lab13_independence_timing_map.qmd
+            href: 05_DecolonizationAndDevelopment/lab13_trade_networks.html
           - text: Global Institutions
-            href: 06_GlobalInstitutions/lab16_UN_votes_trends.qmd
+            href: 06_GlobalInstitutions/lab16_linear_regression.html
           - text: Quantitative Methods
-            href: 07_QuantitativeMethods/lab19_intro_to_tidymodels.qmd
+            href: 07_QuantitativeMethods/lab19_european_reconstruction.html
           - text: Regional Case Studies
-            href: 08_RegionalCaseStudies/lab22_Africa_debt_history.qmd
+            href: 08_RegionalCaseStudies/lab22_colonial_legacies.html
           - text: Policy Memo Toolkits
-            href: 09_PolicyMemoToolkits/lab26_data_appendix_formatting.qmd
+            href: 09_PolicyMemoToolkits/lab26_data_driven_memo.html
 format:
   html:
-    theme: none
+    theme: cosmo
     css: style/custom.css
