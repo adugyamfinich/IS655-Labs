@@ -6,8 +6,6 @@ format:
     css: styles/memo-style.css
     toc: true
     toc-depth: 2
-filters:
-  - webr
 ---
 
 <div class="memo-header">

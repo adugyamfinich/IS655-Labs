@@ -2,8 +2,6 @@
 title: "Lab 02 – Mapping Empire Trade"
 format: html
 editor: visual
-filters:
-  - webr
 ---
 
 ## 🧭 Objective: 

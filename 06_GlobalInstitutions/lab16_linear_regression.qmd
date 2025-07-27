@@ -2,8 +2,7 @@
 title: "Lab 16 – Linear Regression in Historical Analysis"
 format: html
 editor: visual
-filters:
-  - webr
+
 ---
 
 ## 🧭 Objective:  

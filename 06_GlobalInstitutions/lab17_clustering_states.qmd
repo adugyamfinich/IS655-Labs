@@ -2,8 +2,6 @@
 title: "Lab 17 – Clustering States by Historical Indicators"
 format: html
 editor: visual
-filters:
-  - webr
 ---
 
 ## 🧭 Objective:  

@@ -2,8 +2,6 @@
 title: "Lab 11 – Post-Conflict Reconstruction Strategies"
 format: html
 editor: visual
-filters:
-  - webr
 ---
 
 ## 🧭 Objective: 

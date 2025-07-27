@@ -36,3 +36,6 @@ format:
   html:
     theme: cosmo
     css: style/custom.css
+webr:
+  channel-type: "auto"
+  service-worker-url: "site_libs/quarto-webr/webr-service-worker.js"

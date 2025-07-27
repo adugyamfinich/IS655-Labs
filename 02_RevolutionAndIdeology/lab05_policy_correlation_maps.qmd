@@ -2,8 +2,6 @@
 title: "Lab 05 – Ideologies and Governance Models"
 format: html
 editor: visual
-filters:
-  - webr
 ---
 
 ## 🧭 Objective:  

@@ -2,8 +2,7 @@
 title: "Lab 10 – Modeling the Impact of War"
 format: html
 editor: visual
-filters:
-  - webr
+
 ---
 
 ## 🧭 Objective: 

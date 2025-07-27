@@ -2,8 +2,6 @@
 title: "Lab 09 – Comparing Imperial Governance Models"
 format: html
 editor: visual
-filters:
-  - webr
 ---
 
 ## 🧭 Objective:  

@@ -2,8 +2,6 @@
 title: "Lab 06 – Clustering Ideological Alignments"
 format: html
 editor: visual
-filters:
-  - webr
 ---
 
 ## 🧭 Objective:  

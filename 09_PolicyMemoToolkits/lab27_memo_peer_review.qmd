@@ -2,8 +2,7 @@
 title: "Lab 27 – Memo Peer Review Framework"
 format: html
 editor: visual
-filters:
-  - webr
+
 ---
 
 ## 🧭 Objective

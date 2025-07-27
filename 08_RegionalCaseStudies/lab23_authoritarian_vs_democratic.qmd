@@ -2,8 +2,6 @@
 title: "Lab 23 – Authoritarian vs. Democratic Development Models"
 format: html
 editor: visual
-filters:
-  - webr
 ---
 
 ## 🧭 Objective:   

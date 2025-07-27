@@ -2,8 +2,6 @@
 title: "Lab 13 – Mapping Global Trade Networks"
 format: html
 editor: visual
-filters:
-  - webr
 ---
 
 ## 🧭 Objective: 

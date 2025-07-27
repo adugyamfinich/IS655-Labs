@@ -2,8 +2,6 @@
 title: "Lab 07 – Measuring State Capacity"
 format: html
 editor: visual
-filters:
-  - webr
 ---
 
 ## 🧭 Objective:  

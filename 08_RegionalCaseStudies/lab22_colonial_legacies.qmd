@@ -2,8 +2,6 @@
 title: "Lab 22 – Colonial Legacies in Development"
 format: html
 editor: visual
-filters:
-  - webr
 ---
 
 ## 🧭 Objective:   
