@@ -2,6 +2,8 @@
 title: "Lab 20 – Modernization in East and Southeast Asia"
 format: html
 editor: visual
+filters:
+  - webr
 ---
 
 ## 🧭 Objective:  
@@ -11,11 +13,11 @@ Explore industrialization and demographic shifts in Asia from 1950 to 2000.
 What patterns emerge in urbanization? How do they relate to industrial output and education?
 
 ## 📥 Load Data
-```{r, lab07b}
+```{webr-r, lab07b}
 # The data file 'asia_modernization.csv' is missing.
 # Please provide this file to enable the visualization.
 # library(tidyverse)
-# library(here)
+
 # asia <- read_csv(here::here("assets/datasets/asia_modernization.csv"))
 # ggplot(asia, aes(x = year, y = urbanization_rate, color = country)) +
 #   geom_line() +

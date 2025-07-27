@@ -2,6 +2,8 @@
 title: "Lab 24 – Institutional Quality Across Regions"
 format: html
 editor: visual
+filters:
+  - webr
 ---
 
 ## 🧭 Objective:   
@@ -11,11 +13,11 @@ Evaluate institutional strength using governance indicators across continents.
 Which regions show institutional strengths or weaknesses? How do these patterns align with historical trajectories?
 
 ## 📥 Load Data
-```{r, lab08c}
+```{webr-r, lab08c}
 # The data file 'institutional_quality.csv' is missing.
 # Please provide this file to enable the visualization.
 # library(tidyverse)
-# library(here)
+
 # institutions <- read_csv(here::here("assets/datasets/institutional_quality.csv"))
 # library(fmsb)
 # 

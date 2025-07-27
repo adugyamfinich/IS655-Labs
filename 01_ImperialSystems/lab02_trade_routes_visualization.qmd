@@ -2,6 +2,8 @@
 title: "Lab 02 – Mapping Empire Trade"
 format: html
 editor: visual
+filters:
+  - webr
 ---
 
 ## 🧭 Objective: 
@@ -11,9 +13,9 @@ Visualize major trade flows across empires using commodity-based export data fro
 Which empires specialized in which commodities, and why? Discuss how trade patterns shaped foreign policy strategies.
 
 ## 📥 Setup
-```{r, lab01b}
+```{webr-r, lab01b}
 library(tidyverse)
-library(here)
+
 trade <- read_csv(here::here("assets/datasets/imperial_trade.csv"))
 
 trade %>%

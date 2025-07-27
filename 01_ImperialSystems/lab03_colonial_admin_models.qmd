@@ -2,6 +2,8 @@
 title: "Lab 03 – Colonial Administration Models"
 format: html
 editor: visual
+filters:
+  - webr
 ---
 
 ## 🧭 Objective:  
@@ -11,9 +13,9 @@ Analyze and model the distribution of colonial administrative spending across re
 How did budget allocation reflect priorities like military control, education, or infrastructure? What patterns emerge across empires?
 
 ## 📥 Data Load
-```{r, lab03c}
+```{webr-r, lab03c}
 library(tidyverse)
-library(here)
+
 admin <- read_csv(here::here("assets/datasets/colonial_budgets.csv"))
 
 admin %>%

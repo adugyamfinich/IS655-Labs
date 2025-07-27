@@ -2,6 +2,8 @@
 title: "Lab 17 – Clustering States by Historical Indicators"
 format: html
 editor: visual
+filters:
+  - webr
 ---
 
 ## 🧭 Objective:  
@@ -11,9 +13,9 @@ Group countries based on historical indicators using k-means clustering.
 What patterns emerge in the clusters? Are there geographic or ideological groupings?
 
 ## 📥 Load Data
-```{r. lab06b}
+```{webr-r. lab06b}
 library(tidyverse)
-library(here)
+
 indicators <- read_csv(here::here("assets/datasets/state_indicators.csv"))
 set.seed(42)
 clusters <- kmeans(indicators[, -1], centers = 4)

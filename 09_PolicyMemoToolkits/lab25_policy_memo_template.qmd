@@ -2,6 +2,8 @@
 title: "Lab 25 – Policy Memo Template"
 format: html
 editor: visual
+filters:
+  - webr
 ---
 
 ## 📄 Objective

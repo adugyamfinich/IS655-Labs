@@ -2,6 +2,8 @@
 title: "Lab 26 – Data-Driven Policy Memo"
 format: html
 editor: visual
+filters:
+  - webr
 ---
 
 ## 🧭 Objective:  
@@ -11,9 +13,9 @@ Guide students in integrating quantitative analysis into policy writing.
 Write a memo evaluating the effectiveness of international aid in post-conflict recovery. Use the chart above to support your recommendations.
 
 ## 📥 Load Data
-```{r, lab09a}
+```{webr-r, lab09a}
 # library(tidyverse)
-# library(here)
+
 # reconstruction <- read_csv(here::here("assets/datasets/post_conflict_reconstruction.csv"))
 # ggplot(reconstruction, aes(x = year, y = aid_received, color = country)) +
 #   geom_line() +

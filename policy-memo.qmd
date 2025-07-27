@@ -6,6 +6,8 @@ format:
     css: styles/memo-style.css
     toc: true
     toc-depth: 2
+filters:
+  - webr
 ---
 
 <div class="memo-header">
@@ -21,7 +23,7 @@ Recent simulations indicate a heightened risk of rebellion in regions with low G
 
 ## Simulation Findings
 
-```{r}
+```{webr}
 source("assets/scripts/simulate_rebellion.R")
 simulate_rebellion(gdp = 950, regime = "autocracy", ethnic_frac = 0.72, repression = 0.85)
 

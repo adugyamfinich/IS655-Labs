@@ -2,6 +2,8 @@
 title: "Lab 09 – Comparing Imperial Governance Models"
 format: html
 editor: visual
+filters:
+  - webr
 ---
 
 ## 🧭 Objective:  
@@ -10,10 +12,10 @@ Compare governance structures across empires using categorical and numeric trait
 What governance traits distinguish these empires? How might these traits affect long-term stability?
 
 ## 📥 Load Data
-```{r, lab03c}
+```{webr-r, lab03c}
 # library(tidyverse)
 # library(fmsb)
-# library(here)
+
 # governance <- read_csv(here::here("assets/datasets/imperial_governance.csv"))
 
 # # Prepare data

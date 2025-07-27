@@ -2,6 +2,8 @@
 title: "Lab 10 – Modeling the Impact of War"
 format: html
 editor: visual
+filters:
+  - webr
 ---
 
 ## 🧭 Objective: 
@@ -11,9 +13,9 @@ Quantify the economic and institutional effects of major conflicts.
 Which variables most strongly predict post-war economic decline? What policy implications follow?
 
 ## 📥 Load Data
-```{r, lab04a}
+```{webr-r, lab04a}
 library(tidyverse)
-library(here)
+
 conflict_data <- read_csv(here::here("assets/datasets/war_impact.csv"))
 
 # The current dataset 'war_impact.csv' does not contain 'gdp_change' or 'war_duration' columns.

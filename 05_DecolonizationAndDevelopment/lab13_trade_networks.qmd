@@ -2,6 +2,8 @@
 title: "Lab 13 – Mapping Global Trade Networks"
 format: html
 editor: visual
+filters:
+  - webr
 ---
 
 ## 🧭 Objective: 
@@ -10,10 +12,10 @@ Visualize historical trade flows and identify central nodes in global exchange.
 Which regions act as trade hubs? How does network structure reflect power dynamics?
 
 ## 📥 Load Data
-```{r, lab05a}
+```{webr-r, lab05a}
 # library(igraph)
 # library(tidyverse)
-# library(here)
+
 # trade <- read_csv(here::here("assets/datasets/global_trade.csv"))
 
 # g <- graph_from_data_frame(trade)

@@ -2,6 +2,8 @@
 title: "Lab 06 – Clustering Ideological Alignments"
 format: html
 editor: visual
+filters:
+  - webr
 ---
 
 ## 🧭 Objective:  
@@ -10,10 +12,10 @@ Group states by ideology using unsupervised learning.
 Examine which countries cluster together. What values or policies do they share? Could this method help predict future alliances?
 
 ## 📥 Load Data
-```{r, lab02c}
+```{webr-r, lab02c}
 library(tidyverse)
 library(cluster)
-library(here)
+
 ideology <- read_csv(here::here("assets/datasets/ideology_attributes.csv"))
 
 

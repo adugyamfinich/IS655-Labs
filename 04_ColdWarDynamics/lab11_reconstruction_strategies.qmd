@@ -2,6 +2,8 @@
 title: "Lab 11 – Post-Conflict Reconstruction Strategies"
 format: html
 editor: visual
+filters:
+  - webr
 ---
 
 ## 🧭 Objective: 
@@ -10,11 +12,11 @@ Compare reconstruction approaches across different historical contexts.
 Which strategies yield the most consistent recovery? Are there regional patterns?
 
 ## 📥 Load Data
-```{r, lab04b}
+```{webr-r, lab04b}
 # The data file 'reconstruction_strategies.csv' is missing.
 # Please provide this file to enable the visualization.
 # library(tidyverse)
-# library(here)
+
 # recovery <- read_csv(here::here("assets/datasets/reconstruction_strategies.csv"))
 # recovery %>%
 #   ggplot(aes(x = strategy, y = recovery_score, fill = region)) +

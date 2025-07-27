@@ -2,6 +2,8 @@
 title: "Lab 01 – Demographics of Empire"
 format: html
 editor: visual
+filters:
+  - webr
 ---
 
 ## 🧭 Objective: 
@@ -11,9 +13,9 @@ Explore how population growth varied across different colonial empires in the 19
 Write 300–500 words interpreting differences in population trends. Consider the role of urbanization, migration, and policy within the imperial context.
 
 ## 📥 Data Setup
-```{r, lab01a}
+```{webr-r, lab01a}
 library(tidyverse)
-library(here)
+
 pop_data <- read_csv(here::here("assets/datasets/colonial_population.csv"))
 
 pop_data %>%

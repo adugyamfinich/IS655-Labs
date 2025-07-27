@@ -217,7 +217,8 @@ window.Quarto = {
 </section>
 <section id="load-data" class="level2">
 <h2 class="anchored" data-anchor-id="load-data">📥 Load Data</h2>
-<p>```{r. lab06b} library(tidyverse) library(here) indicators &lt;- read_csv(here::here(“assets/datasets/state_indicators.csv”)) set.seed(42) clusters &lt;- kmeans(indicators[, -1], centers = 4) indicators<span class="math inline">\(cluster &lt;- clusters\)</span>cluster</p>
+<p>```{webr-r. lab06b} library(tidyverse)</p>
+<p>indicators &lt;- read_csv(here::here(“assets/datasets/state_indicators.csv”)) set.seed(42) clusters &lt;- kmeans(indicators[, -1], centers = 4) indicators<span class="math inline">\(cluster &lt;- clusters\)</span>cluster</p>
 <p>ggplot(indicators, aes(x = literacy_rate, y = military_spending, color = factor(cluster))) + geom_point() + labs(title = “Clustering States by Historical Indicators”, x = “Literacy Rate”, y = “Military Spending”) + theme_minimal() ```</p>
 
 

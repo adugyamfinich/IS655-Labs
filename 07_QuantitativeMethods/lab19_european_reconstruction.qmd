@@ -2,6 +2,8 @@
 title: "Lab 19 – European Reconstruction After WWII"
 format: html
 editor: visual
+filters:
+  - webr
 ---
 
 ## 🧭 Objective:   
@@ -11,11 +13,11 @@ Analyze postwar economic recovery in Western and Eastern Europe using historical
 Compare recovery trajectories. How did Marshall Plan aid correlate with economic growth?
 
 ## 📥 Load Data
-```{r, lab07a}
+```{webr-r, lab07a}
 # The data file 'europe_reconstruction.csv' is missing.
 # Please provide this file to enable the visualization.
 # library(tidyverse)
-# library(here)
+
 # europe <- read_csv(here::here("assets/datasets/europe_reconstruction.csv"))
 # 
 # ggplot(europe, aes(x = year, y = gdp, color = region)) +

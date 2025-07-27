@@ -2,6 +2,8 @@
 title: "Lab 15 – Modeling Global Governance Structures"
 format: html
 editor: visual
+filters:
+  - webr
 ---
 
 ## 🧭 Objective:  
@@ -10,9 +12,9 @@ Explore the structure and influence of global governance institutions.
 Which institutions dominate global governance? How do their domains shape international cooperation?
 
 ## 📥 Load Data
-```{r, lab05c}
+```{webr-r, lab05c}
 # library(tidyverse)
-# library(here)
+
 # governance <- read_csv(here::here("assets/datasets/global_governance.csv"))
 
 # governance %>%

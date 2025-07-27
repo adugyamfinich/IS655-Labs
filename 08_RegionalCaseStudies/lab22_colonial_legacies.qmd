@@ -2,6 +2,8 @@
 title: "Lab 22 – Colonial Legacies in Development"
 format: html
 editor: visual
+filters:
+  - webr
 ---
 
 ## 🧭 Objective:   
@@ -11,11 +13,11 @@ Compare postcolonial development indicators across former British, French, and S
 Do colonial legacies correlate with development outcomes? What exceptions challenge the trend?
 
 ## 📥 Load Data
-```{r, lab08a}
+```{webr-r, lab08a}
 # The data file 'colonial_legacies.csv' is missing.
 # Please provide this file to enable the visualization.
 # library(tidyverse)
-# library(here)
+
 # colonies <- read_csv(here::here("assets/datasets/colonial_legacies.csv"))
 # 
 # ggplot(colonies, aes(x = colonial_power, y = literacy_rate, fill = colonial_power)) +

@@ -2,6 +2,8 @@
 title: "Lab 14 – Institutional Convergence Across Borders"
 format: html
 editor: visual
+filters:
+  - webr
 ---
 
 ## 🧭 Objective: 
@@ -10,9 +12,9 @@ Assess whether institutions across countries are becoming more similar over time
 Are institutions converging globally? What drives convergence or divergence?
 
 ## 📥 Load Data
-```{r, lab05b}
+```{webr-r, lab05b}
 # library(tidyverse)
-# library(here)
+
 # convergence <- read_csv(here::here("assets/datasets/institutional_convergence.csv"))
 # convergence %>%
 #   ggplot(aes(x = year, y = similarity_score, color = region)) +

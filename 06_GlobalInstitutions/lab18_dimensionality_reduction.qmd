@@ -2,6 +2,8 @@
 title: "Lab 18 – Dimensionality Reduction with PCA"
 format: html
 editor: visual
+filters:
+  - webr
 ---
 
 ## 🧭 Objective:   
@@ -10,7 +12,7 @@ Use Principal Component Analysis (PCA) to reduce complexity in historical datase
 Which components explain the most variance? What historical traits do they represent?
 
 ## 📥 Load Data
-```{r, lab06c}
+```{webr-r, lab06c}
 # library(tidyverse)
 # library(FactoMineR)
 # library(factoextra)
