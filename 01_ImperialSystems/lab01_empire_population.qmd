@@ -4,8 +4,11 @@ format: html
 editor: visual
 ---
 
-## 🧭 Objective
+## 🧭 Objective: 
 Explore how population growth varied across different colonial empires in the 19th century using historical datasets.
+
+## Prompt: 
+Write 300–500 words interpreting differences in population trends. Consider the role of urbanization, migration, and policy within the imperial context.
 
 ## 📥 Data Setup
 ```{r}

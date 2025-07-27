@@ -1,16 +1,14 @@
-
----
-### 2️⃣ `lab02_trade_routes_visualization.qmd`
-
-```markdown
 ---
 title: "Lab 02 – Mapping Empire Trade"
 format: html
 editor: visual
 ---
 
-## 🧭 Objective
+## 🧭 Objective: 
 Visualize major trade flows across empires using commodity-based export data from the 19th century.
+
+## Prompt: 
+Which empires specialized in which commodities, and why? Discuss how trade patterns shaped foreign policy strategies.
 
 ## 📥 Setup
 ```{r}
@@ -24,5 +22,3 @@ trade %>%
        x = "Export Value (in millions)", y = "Commodity") +
   theme_bw()
 ```
-## ✍️ Prompt
-Which empires specialized in which commodities, and why? Discuss how trade patterns shaped foreign policy strategies.

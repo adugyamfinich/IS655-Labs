@@ -1,0 +1,41 @@
+/* styles/memo-style.css */
+
+.memo-header {
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+}
+
+.memo-title {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #2a2a2a;
+}
+
+.memo-subtitle {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.memo-body {
+  font-family: 'Times New Roman', serif;
+  font-size: 1.05em;
+  line-height: 1.7;
+  margin-top: 1em;
+}
+
+.memo-callout {
+  background-color: #f0f0f0;
+  border-left: 4px solid #0077cc;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.memo-footer {
+  font-size: 0.9em;
+  color: #777;
+  border-top: 1px solid #ccc;
+  padding-top: 0.5em;
+  margin-top: 2em;
+}
+

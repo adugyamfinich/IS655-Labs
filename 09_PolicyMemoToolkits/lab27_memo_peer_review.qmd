@@ -1,0 +1,21 @@
+---
+title: "Lab 27 – Memo Peer Review Framework"
+format: html
+editor: visual
+---
+
+## 🧭 Objective
+Establish a structured rubric for peer feedback on policy memos.
+
+## ✅ Review Criteria
+- Clarity of Executive Summary
+- Historical relevance and accuracy
+- Use of data and visualizations
+- Strength of recommendations
+- Writing style and formatting
+
+## ✍️ Prompt
+Exchange memos with a peer and provide constructive feedback using the rubric above. Reflect on how the review process improved your own memo.
+
+
+

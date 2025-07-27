@@ -1,17 +1,14 @@
-
----
-
-### 3️⃣ `lab03_colonial_admin_models.qmd`
-
-```markdown
 ---
 title: "Lab 03 – Colonial Administration Models"
 format: html
 editor: visual
 ---
 
-## 🧭 Objective
+## 🧭 Objective:  
 Analyze and model the distribution of colonial administrative spending across regions.
+
+## Prompt: 
+How did budget allocation reflect priorities like military control, education, or infrastructure? What patterns emerge across empires?
 
 ## 📥 Data Load
 ```{r}
@@ -25,5 +22,3 @@ admin %>%
   theme_minimal()
 ```
 
-## ✍️ Prompt
-How did budget allocation reflect priorities like military control, education, or infrastructure? What patterns emerge across empires?

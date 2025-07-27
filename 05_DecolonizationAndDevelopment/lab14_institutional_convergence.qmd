@@ -1,0 +1,23 @@
+---
+title: "Lab 14 – Institutional Convergence Across Borders"
+format: html
+editor: visual
+---
+
+## 🧭 Objective: 
+Assess whether institutions across countries are becoming more similar over time.
+## ✍️ Prompt: 
+Are institutions converging globally? What drives convergence or divergence?
+
+## 📥 Load Data
+```{r}
+convergence <- read_csv("assets/datasets/institutional_convergence.csv")
+convergence %>%
+  ggplot(aes(x = year, y = similarity_score, color = region)) +
+  geom_line() +
+  labs(title = "Institutional Convergence Over Time",
+       x = "Year", y = "Similarity Score") +
+  theme_minimal()
+```
+
+

@@ -1,0 +1,30 @@
+/* styles/custom.css */
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fdfcf9;
+  color: #2c2c2c;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Merriweather', serif;
+  color: #3a3a3a;
+  margin-top: 1.5em;
+}
+
+a {
+  color: #005a9c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.quarto-title-block {
+  background-color: #eaeaea;
+  padding: 1em;
+  border-left: 5px solid #005a9c;
+}
+

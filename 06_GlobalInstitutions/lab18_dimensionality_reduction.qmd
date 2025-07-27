@@ -1,0 +1,24 @@
+---
+title: "Lab 18 – Dimensionality Reduction with PCA"
+format: html
+editor: visual
+---
+
+## 🧭 Objective:   
+Use Principal Component Analysis (PCA) to reduce complexity in historical datasets.
+## ✍️ Prompt:   
+Which components explain the most variance? What historical traits do they represent?
+
+## 📥 Load Data
+```{r}
+library(tidyverse)
+library(FactoMineR)
+library(factoextra)
+
+data <- read_csv("assets/datasets/historical_metrics.csv")
+pca <- PCA(data[, -1], graph = FALSE)
+fviz_pca_ind(pca, label = "none", habillage = data$region)
+```
+
+
+

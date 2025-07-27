@@ -1,0 +1,20 @@
+---
+title: "Lab 16 – Linear Regression in Historical Analysis"
+format: html
+editor: visual
+---
+
+## 🧭 Objective:  
+Use linear regression to model historical trends such as GDP growth or military expenditure.
+## ✍️ Prompt:   
+Interpret the coefficients. What do they suggest about regional economic trajectories?
+
+## 📥 Load Data
+```{r}
+library(tidyverse)
+gdp <- read_csv("assets/datasets/historical_gdp.csv")
+
+model <- lm(gdp ~ year + region, data = gdp)
+summary(model)
+```
+

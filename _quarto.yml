@@ -9,6 +9,8 @@ website:
         href: index.qmd
       - text: Syllabus
         href: syllabus.qmd
+      - text: Policy Memo
+        href: policy-memo.qmd
       - text: Lab Modules
         menu:
           - text: Imperial Systems
@@ -32,4 +34,4 @@ website:
 format:
   html:
     theme: none
-    css: style.css
+    css: style/custom.css
