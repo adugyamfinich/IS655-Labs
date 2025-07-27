@@ -6,12 +6,12 @@ editor: visual
 
 ## 📘 Course Overview
 
-**Instructor**: Dr. Austin Jersild  
+**Instructor**: Nicholas Adu Gyamfi  
 **Department**: History / Graduate Program in International Studies  
-**Institution**: Old Dominion University  
+**Institution**: University  
 **Credits**: 3  
 **Delivery**: [In-person / Online / Hybrid]  
-**Contact**: ajersild@odu.edu
+**Contact**: adu.oracledba@gmail.com
 
 ## 🎯 Description
 
@@ -52,13 +52,9 @@ This graduate seminar explores the evolution of the international system from th
 
 ## 📌 Grading
 
-- Participation: 20%  
-- Reflections: 20%  
-- Short Papers: 20%  
-- Final Project: 40%
+- Participation:   
+- Reflections:   
+- Short Papers:   
+- Final Project: 
 
 ## 🏛️ Institutional Policies
-
-ODU policies on academic integrity, Title IX, accessibility, and student conduct apply.  
-[View full policy list](https://www.odu.edu/about/policiesandprocedures)
-
