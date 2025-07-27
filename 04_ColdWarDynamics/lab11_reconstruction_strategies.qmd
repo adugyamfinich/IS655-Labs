@@ -1,0 +1,22 @@
+---
+title: "Lab 11 – Post-Conflict Reconstruction Strategies"
+format: html
+editor: visual
+---
+
+## 🧭 Objective: 
+Compare reconstruction approaches across different historical contexts.
+## ✍️ Prompt: 
+Which strategies yield the most consistent recovery? Are there regional patterns?
+
+## 📥 Load Data
+```{r}
+recovery <- read_csv("assets/datasets/reconstruction_strategies.csv")
+recovery %>%
+  ggplot(aes(x = strategy, y = recovery_score, fill = region)) +
+  geom_boxplot() +
+  labs(title = "Effectiveness of Reconstruction Strategies",
+       x = "Strategy Type", y = "Recovery Score") +
+  theme_minimal()
+```
+

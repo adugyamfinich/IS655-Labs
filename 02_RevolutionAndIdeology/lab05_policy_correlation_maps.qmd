@@ -1,0 +1,25 @@
+---
+title: "Lab 05 – Ideologies and Governance Models"
+format: html
+editor: visual
+---
+
+## 🧭 Objective:  
+Evaluate correlations among policy traits adopted by post-revolutionary governments.
+## ✍️ Prompt:   
+Which policies tend to co-occur across regimes? What ideological connections do these patterns suggest?
+
+## 📥 Setup
+```{r}
+policy_traits <- read_csv("assets/datasets/governance_traits.csv")
+
+policy_traits %>%
+  select(-country) %>%
+  cor() %>%
+  round(2)
+```
+
+
+
+
+

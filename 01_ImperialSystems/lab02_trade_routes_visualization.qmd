@@ -1,0 +1,24 @@
+---
+title: "Lab 02 – Mapping Empire Trade"
+format: html
+editor: visual
+---
+
+## 🧭 Objective: 
+Visualize major trade flows across empires using commodity-based export data from the 19th century.
+
+## Prompt: 
+Which empires specialized in which commodities, and why? Discuss how trade patterns shaped foreign policy strategies.
+
+## 📥 Setup
+```{r}
+library(tidyverse)
+trade <- read_csv("assets/datasets/imperial_trade.csv")
+
+trade %>%
+  ggplot(aes(x = export_value, y = commodity, fill = empire)) +
+  geom_col(position = "dodge") +
+  labs(title = "Colonial Commodity Exports by Empire",
+       x = "Export Value (in millions)", y = "Commodity") +
+  theme_bw()
+```

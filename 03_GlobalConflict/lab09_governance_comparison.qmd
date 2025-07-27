@@ -1,0 +1,32 @@
+---
+title: "Lab 09 – Comparing Imperial Governance Models"
+format: html
+editor: visual
+---
+
+## 🧭 Objective:  
+Compare governance structures across empires using categorical and numeric traits.
+## ✍️ Prompt:  
+What governance traits distinguish these empires? How might these traits affect long-term stability?
+
+## 📥 Load Data
+```{r}
+governance <- read_csv("assets/datasets/imperial_governance.csv")
+
+library(fmsb)
+
+# Prepare data
+radar_data <- governance %>%
+  filter(empire %in% c("Ottoman", "British", "Qing")) %>%
+  select(empire, centralization, legal_uniformity, local_autonomy)
+
+# Normalize and plot
+radar_data <- as.data.frame(radar_data)
+radar_data <- rbind(rep(5, 3), rep(0, 3), radar_data[,-1])
+rownames(radar_data) <- c("Max", "Min", radar_data$empire)
+
+radarchart(radar_data, axistype = 1,
+           pcol = c("red", "blue", "green"),
+           plwd = 2, plty = 1,
+           title = "Governance Traits Across Empires")
+```

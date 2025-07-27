@@ -1,0 +1,24 @@
+---
+title: "Lab 07 – Measuring State Capacity"
+format: html
+editor: visual
+---
+
+## 🧭 Objective:  
+Quantify state capacity across empires using fiscal, military, and bureaucratic indicators.
+## ✍️ Prompt:  
+Which empires show sustained capacity growth? What historical events might explain declines?
+
+## 📥 Load Data
+```{r}
+state_data <- read_csv("assets/datasets/state_capacity.csv")
+
+state_data <- state_data %>%
+  mutate(capacity_index = (tax_revenue + army_size + admin_density) / 3)
+
+ggplot(state_data, aes(x = year, y = capacity_index, color = empire)) +
+  geom_line() +
+  labs(title = "State Capacity Over Time",
+       x = "Year", y = "Composite Capacity Index") +
+  theme_minimal()
+```

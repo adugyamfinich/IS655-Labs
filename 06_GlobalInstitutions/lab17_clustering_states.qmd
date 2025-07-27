@@ -1,0 +1,27 @@
+---
+title: "Lab 17 – Clustering States by Historical Indicators"
+format: html
+editor: visual
+---
+
+## 🧭 Objective:  
+Group countries based on historical indicators using k-means clustering.
+
+## ✍️ Prompt:  
+What patterns emerge in the clusters? Are there geographic or ideological groupings?
+
+## 📥 Load Data
+```{r}
+indicators <- read_csv("assets/datasets/state_indicators.csv")
+set.seed(42)
+clusters <- kmeans(indicators[, -1], centers = 4)
+indicators$cluster <- clusters$cluster
+
+ggplot(indicators, aes(x = literacy_rate, y = military_spending, color = factor(cluster))) +
+  geom_point() +
+  labs(title = "Clustering States by Historical Indicators",
+       x = "Literacy Rate", y = "Military Spending") +
+  theme_minimal()
+```
+
+

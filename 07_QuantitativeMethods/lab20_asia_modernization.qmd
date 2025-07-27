@@ -1,0 +1,24 @@
+---
+title: "Lab 20 – Modernization in East and Southeast Asia"
+format: html
+editor: visual
+---
+
+## 🧭 Objective:  
+Explore industrialization and demographic shifts in Asia from 1950 to 2000.
+
+## ✍️ Prompt:   
+What patterns emerge in urbanization? How do they relate to industrial output and education?
+
+## 📥 Load Data
+```{r}
+asia <- read_csv("assets/datasets/asia_modernization.csv")
+ggplot(asia, aes(x = year, y = urbanization_rate, color = country)) +
+  geom_line() +
+  labs(title = "Urbanization Trends in Asia",
+       x = "Year", y = "Urbanization Rate (%)") +
+  theme_minimal()
+```
+
+
+

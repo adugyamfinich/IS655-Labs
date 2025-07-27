@@ -1,0 +1,21 @@
+---
+title: "Lab 10 – Modeling the Impact of War"
+format: html
+editor: visual
+---
+
+## 🧭 Objective: 
+Quantify the economic and institutional effects of major conflicts.
+
+## ✍️ Prompt: 
+Which variables most strongly predict post-war economic decline? What policy implications follow?
+
+## 📥 Load Data
+```{r}
+conflict_data <- read_csv("assets/datasets/war_impact.csv")
+
+model <- lm(gdp_change ~ war_duration + casualties + infrastructure_loss, data = conflict_data)
+summary(model)
+
+```
+
