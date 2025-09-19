@@ -16,6 +16,6 @@ Welcome to **IS655**, a graduate seminar at Old Dominion University taught by Dr
 - Institutions & Policy Memo Toolkits
 
 ## Getting Started
-To begin, visit the [Syllabus](syllabus.hml) or explore the labs by theme in the navigation bar.
+To begin, visit the [Syllabus](syllabus.html) or explore the labs by theme in the navigation bar.
 
 Happy exploring!
